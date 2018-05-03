@@ -1,6 +1,6 @@
 Cours 2
 ========================
-_29/03/18_
+*29/03/18*
 
 #### 2 - La segmentation (cibler ses utilisateurs)
 Il y a plusieurs types de rendement (primaire, secondiare, tertiaire, quaternaire...)  
