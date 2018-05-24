@@ -1,5 +1,4 @@
-Cours 1
-========================
+# Cours crypto
 
 Deux premiers cours : histoire de la crypto  
 Calculatrice : on verra. Si oui, le mieux c'est la TI89  
@@ -30,6 +29,8 @@ décryptage : processus de reconstruction par perosnne non autorisée
 clef de déchiffrement : tout algorithme qui permet de chiffr ou déchiffrer un message
 
 sténographie :  dissimulation d'un message dans un ensemble de données d'apparence anodine
+
+# Histoire
 
 ## Chronologie 
 
@@ -130,7 +131,8 @@ Sémaphore : les deux drapeaux avec rouge/jaune en diago
 
 #### Le morse
 
-bien connu. Pensé pour que les lettres les plus utilisées soient symboles courts
+bien connu. Pensé pour que les lettres les plus utilisées soient symboles courts  
+Les caractères souvent utilisés sont généralement très courts. Ceux moins tuilisés sont plus longs.
 
 #### L'ASCII
 
@@ -146,7 +148,7 @@ difficulté : les mots de la langue sont pas adaptés donc ils trouvent des équ
 #### Approche 01  : Le chiffre de transposition
 
 On change l'ordre des lettres selon un clé indiquant comment on permute sur un lot de n lettres. (genre 4 lettres qu'on change en 2, 4, 1, 3)  
-Ca a été utilisé par Galilée notamment, pour protéger ses recherches : il avait publié le truc en crypté pour prouver qu'ilétait le premier à avoir trouvé qqch.
+Ca a été utilisé par Galilée notamment, pour protéger ses recherches : il avait publié le truc en crypté pour prouver qu'il était le premier à avoir trouvé qqch.
 
 ##### Lecture globale              
 
@@ -166,3 +168,112 @@ On peut faire en trois niveaux ou plus
 
 grille avec cache devant qui lorsqu'on le tourne laisse aparraitre des cases différentes. on écrit message en remplissant la grille à travers cache  et en le tournant d'un quart de tour à chaque fois. on a ensuit une grille remplie dont on transmet les lettres. Pour déchiffrer, remontrer la grille et mettre le cache.
 
+*Cours 2 : 23/05/2018*
+
+##### Transposition rectangulaire
+
+on ecrit message en grille, et utilise un mot clef aux lettres numérotés pour changer ordre ds colonnes et donc mélanger la grille. On lit ensuite la grille dnas un certain ordre en format des mots de x lettre (taille de chaque ligne du tableau).  
+Il faut par contre pouvoir transmettre le mot clef et savoir comment lire les lignes
+
+Comment renforcer ce système (un peu léger de base) ?  Faire deux transpositions. On peut aussi transposer d'abord les colonnes, puis les lignes, mais ça change rien vraiment, il faudrait plutôt avoir deux chiffres différents.
+
+#### Approche 02 : chiffre de sustitution 
+
+Consiste à remplacer lettres ou mots par autres symboles.  
+4 grandes familes :
+
+* Monoalphabétiue: 1 lettre une lettre
+* Polyalphabétique : 1 lettre deux lettres
+* Polygrammique : 2 lettres une lettre
+* Tommogrammiques : 2 lettre plusieurs lettres
+
+##### Monoalphabetique
+
+###### Polybe (Carré de polybe)
+
+Fonctionne avec des coordonnées pour les lettres dnas un carré de 5x5 (25 cases).  
+On peut agrandir à 6x6 = 36 poury insérer les chiffres
+
+Pour sécuriser le truc, on peut faire un carré de Polybe  en désorganisant l'alphabet à l'intérieur. Par exemple, avec un mot clef : on commenc epar l'écrire puis on met les lettres restantes dans l'ordre.
+
+###### Georges Perec
+
+Auteur de "La disparition", et de "Les revenentes" (que avec la voyelle e). Il a aussi fait un grand palindrome.  
+
+
+###### L'alphabet désordonné
+
+Changer l'ordre de l'alphabet :
+
+* Chiffre de César : on décale les lettre de x
+* Alphabet hébraique : Atbash, on inverse ordre lettrs alphabet; albam, décalé de 13 position (2 décalages = originel); atbah les chiffres sont réversisble : A=i et i=A, b=h et h=b.., que 13 tandems à apprendre.
+
+( Les romains étaient bons en guerre, en ingénierie et en administrations, mais très mauvais scientifiques. Bons scientifiques chez les grecs : Archimède, buté par un romain connement 
+
+###### Pig pen & templiers
+
+Associer des symboles aux lettres : Pig pen utilisé très longtemps, notamment par pirates !  
+-> Wikipedia  
+Croix de malte des templiers
+
+###### Analyse de fréquence
+
+Comment décrypter un texte utilisant chiffre de substitution ?
+
+Al khindi
+
+Se baser sur fréquence d'aparition des lettres.  
+fréquence des lettres en Français : ea...  
+Il y a des diagrammes pour toutes les langues. Les 4 europpéennes principales sont assez similaires.  
+Pour analyse de fréquence, il faut des messages relativement longs (ou plusieurs messages courts avec la même clef).
+
+###### Substitution homophonique
+Pour échapper à l'analyse de fréquence, on peut définir plusieurs symboles pour une même lettre : 
+
+* chiffre de Sully, 
+* chiffre de 15...
+* disque de l'armée mexicaine
+* moyenne de fréquences d'apparition pour donner autant de symbols que nécessaire à chauqe lettre pour "lisser" courbe
+* tableau de coordonnées avec lettres
+
+Monoalphabétique est un peu gênant à cause analyse fréquence. On a tenté de s'en dépatouiller avec la substitution homophonique
+
+##### Polyalphabétiques
+
+pour  choisir les mots-clef, on s'netend sur un livre différent par jour, chaque jour on tourne une page, on prend mettons les premier mot de 5 lettres de la page.
+
+###### Chiffre de Porta
+
+Truc un peu chiadé avec des alphabets, un mot clef... en tout cas ça empêche l'analyse de fréquence. 13 alphabets en tout
+
+###### Chiffre de Vigenere
+
+Histoire de pas se faire chier la bite, le gars a fait 26 alphabets, pour ne pas regrouper. C'est bien plus sécu ! Sauf la ligne A  qui n'est pas décalée. Le décalage 0 est bof en matière de crypto.  
+Le chiffre de vigenère est méga efficace ! Pendant 300 ans les gens ont pus rien fait après, c'était suffisant.  
+Le carré de Vigenère reste bien relou à utiliser. On utilise ensuite donc plutôt une réglette, en alignat la lettre du mot clef sur le A de l'alphabet. On obtient ensuite notre correspondance.
+
+Si on regarde de près, c'est un système de chiffre de César mais décalé à chaque lettre. On sait aujourd'hui le casser, de plusieurs façon (deux je crois).  
+
+Variantes : 
+
+* chiffre de Beaufort : au lieu d'ajouter la clef, il la soustrait.
+* Chiffre de Gronsfield : remplace mot clef par chiffre clef > réduit les 26 possibilités à 9.
+* _Masque jetable_ : **methode INCASSABLE**. Seul algo de cryptage indécryptable. C'est un chiffre de vigenère dont la clef de chiffrement est égale à la longueur du message. Il faut pour ça :
+ * choisir une clef aussi longue
+    * utiliser une clef formée de caractères aléatoires
+    * protéger la clef
+    * jamais réutiliser la clef
+    * écrire textes clairs ne contenant que des lettres (pas de ponctuation ou espace)  
+ -> Message transmis via valise diplomatique !
+* Cylinre de Jefferson : plusieurs disques avec alpabet. C'est un Vignère automatisé
+
+####### Casser Vigenère : Méthode de Bazeries
+
+On prend un mot supposé être dans le message et on teste en décalant d'une lettre à chaque fois en déduisant ce qui doit etre le mot clef. On part du postulat que la clef est un mot existant.  
+Basé sur idée de répétition de la clef étant un mot.
+
+###### Casser Vigenère : Méthode de Babbage et Kasiski
+
+Basé sur la recherche des redondances dans le message. Ces redondances vont donner une indication sur la taille de la clef. On peut avec la taille, revenir sur une méthode monoalphabétique   
+Besoin d'un message plutôt long. On reporte les redondances en comptant les possibilité, puis on compare entre toutes les redondances pour trouver la longueur qui colle à toutes.  
+À partir de ça, on fait des analyse de fréquence pour chaque déclaage de la clef. 
