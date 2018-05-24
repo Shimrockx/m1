@@ -8,7 +8,7 @@ alliance physique et numérique - exemple d'ikea. Plus d'avenir pour magaisns pr
 
 ## III Business models et strategies e-marketing
 
-### A - Le Bait and Hook
+### A - Le Bait and Hook (appat et crochet)
 
 il s'agit d'identifier les sources de création de valeur. Les facteurs clés / succès.  
 Selon les marchés, il faut appliquer plusieurs stratégies (DAS)  
@@ -66,3 +66,89 @@ usage restreint genre x utilisations par mois, x minutes, x exports de fichiers,
 ### D - L'abonnement
 
 C'est un concept de premium pur.  L'abonnement connait un succès croissant.  
+
+
+__________________________
+
+(suite du cours de G à mettre en forme) 
+
+
+    A. La commission
+        ◦ Consiste à prélever une part financière de la vente. 
+            ▪ Exemple de Blablacar ou amazon qui prend une commission variable selon les pays.
+Qu’est ce qui fait qu’on fixe la valeur à la commission : le prix.
+
+    A. La vente unitaire
+Réccurence, référencement. 
+Exemple d’amazon de vente unitaire qui peut être combiné au système d’abonnement (premium). 
+>Pay as you go
+>Pay per use.
+
+    B. Les ventes privées
+Le digital à pousser les ventes privées (vente privée .com)
+Modèle fondé sur la cooptation. 
+
+
+7 questions pour valider le modèle d’affaire :
+    • Quels sont les coûts qui empêchent les clients de passer à la concurrence ?
+    • Quelle est l’extensibilité de votre modèle d’affaires ?
+    • Votre modèle d’affaires génère-t-il un CA récurrent ?
+    • Est-ce que vous gagnez de l’argent avant d’en avoir dépensé ?
+    • Faites-vous faire gratuitement une partie du travail par d’autres ?
+    • Est-ce que votre modèle d’affaires vous protège de la concurrence ?
+    • Votre structure de coûts est-elle radicalement différente de celle des concurrents ?
+
+A retenir :
+    • Principaux modèles économiques : commission et abonnement.
+    • Les plateformes intermédiaires servent à mettre en relation deux types d’acteurs pour faciliter leurs transactions. 
+    • La gratuité permet d’attirer de nouveau utilisateur. Compensé par des leviers générateurs de revenus.
+    • Les offres freemium & premium ont pour vocation de proposer un service au client afin de le fidéliser (convaincre à s’engager dans l’entreprise).
+    • Les entreprises peuvent difficilement satisfaire l’équilibre financier avec un seul modèle économique. Mixer les modèles permet de diversifier sa structure de revenus. 
+
+
+    IV. Affirmer son identité et construire sa visibilité
+    A. Le site web, socle de la stratégie de marketing digital.
+
+1. Le choix de l’hébergeur
+2. L’achat du nom de domaine
+
+Choix du nom de domaine ;
+    • Coût
+    • Percutant
+    • Optimisé
+    • Exact Match Domaine (restaurant-sushi-lyon.fr)
+
+
+
+3. Le recours aux outils CMS (Content Management System)
+
+
+
+Choisir entre CMS sas ou embarqué. (Strinkingly)
+
+
+
+
+4. Sécuriser le site.
+
+Source W3techs avec répartition des types de site web : 59% WordPress
+Problème de sécurité lié à WordPress : module. 
+    • HTTPS
+
+
+5. La conception du site.
+Selon l’objectif de conversion : action qui est attendu de l’internaute lorsqu’il vient sur le site.
+    • L’arborescence
+    • Le bouton accueil
+    • Les rubriques
+    • Les fonctionnalités
+    • Le design
+    • Le mobile first
+    • Le « responsive design »
+    • Le contenu
+    • Les marqueurs de confiance
+    • …
+
+A partir de l’objectif de conversion, peut décliner toutes les activités nécessaires. Commence par l’arborescence. 
+Call to action : appelle du pied au client (exemple bouton sur un site ded crowfunding « découvrir » ou « financer »)
+

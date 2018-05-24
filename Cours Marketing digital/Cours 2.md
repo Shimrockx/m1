@@ -172,7 +172,7 @@ ZMOT->FMOT->SMOT
 
 l'utilisateur va aller quand il est intéressé chercher de l'info sur un produit. C'est une étape clé.   
 FMOT: achat du produit  
-SMOT : expérience du produit
+SMOT : expérience du produitNote 2018-05-24T13.12.47
 
 On touche à l'e-reputation. C'est plus dur à maitriser, à contrôler que la réputation.
 ce sont les SMOT qui nourrissent les infos du ZMOT
