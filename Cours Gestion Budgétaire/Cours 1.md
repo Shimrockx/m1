@@ -42,7 +42,7 @@ On distingue deux types d'entreprises:
 Les entreprises prestataires de service sont assimilées entreprises industrielles  
 L'entreprise est un centre d'échanges de flux réels et de flux financiers 
 
-![Screenshot-2018-5-23 Matthias Établissement scolaire](file://media/676207325.png)
+![Screenshot-2018-5-23](https://github.com/eii1719/m1/blob/master/Cours%20Gestion%20Budg%C3%A9taire/Cours%201/Screenshot-2018-5-23%20Matthias%20%C3%89tablissement%20scolaire.png)
 
 La comptabilité générale est un système d'enregistrement et d'information de ces différents flux entrant et sortant de l'entreprise. La comptabilité générale a pour objectif de dresser les documents de synthèse : 
 
@@ -60,7 +60,7 @@ L'objectif est de comparer le chiffre d'affaires (CA) aux différentes charges s
 
 Tableau différentiel  
 
-![tab1](file://media/1094856307.png)
+![tab1](https://github.com/eii1719/m1/blob/master/Cours%20Gestion%20Budg%C3%A9taire/Cours%201/tab1.png)
 
 
 MSCV = Marge Sur Coûts Variables  
@@ -104,7 +104,7 @@ IS = CA-SR/CA*100
 
 ### 1.2.5 - Exemple 
 
- ![tab2](file://media/1096278821.png)
+ ![tab2](https://github.com/eii1719/m1/blob/master/Cours%20Gestion%20Budg%C3%A9taire/Cours%201/tab2.png)
 
 R = Résultat  
 
