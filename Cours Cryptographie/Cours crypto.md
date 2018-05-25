@@ -276,4 +276,133 @@ Basé sur idée de répétition de la clef étant un mot.
 
 Basé sur la recherche des redondances dans le message. Ces redondances vont donner une indication sur la taille de la clef. On peut avec la taille, revenir sur une méthode monoalphabétique   
 Besoin d'un message plutôt long. On reporte les redondances en comptant les possibilité, puis on compare entre toutes les redondances pour trouver la longueur qui colle à toutes.  
-À partir de ça, on fait des analyse de fréquence pour chaque déclaage de la clef. 
+À partir de ça, on fait des analyse de fréquence pour chaque décalage de la clef. 
+
+_________________________________________
+
+*25/05/18*
+
+###### Casser Vigenère : méthode de William Friedman (1891 - 1969)
+
+Il fabrique un indice de coincidence pour chaque langage, permettant de savoir quelle est la probabilité que deux lettres prises au hasard soient identiques et utilise cet indice pour savoir si texte crypté est monoalphabétique (si l'indic colle c'est le cas). ensuite ça permet aussi de connaitre la longueur de la clef.   
+Pour trouver longueur de la clef, on tente avec diverses longueurs de clefs, à partir de 1, et on refait l'indice en prenant une lettre sur n (du coup 1 sur n, n étant la longueur de la clef, on tombe sur un truc monoalphabétique), si on obtient un indice proche de l'indice du monoalphabétiaue (0,07), c'est gagné : on a ma longueur de la clef.
+
+Fonctionne bien avec mots-clef pas trop long sur texte long. 
+
+###### Au delà de Vigenère : la machine allemande Enigma
+
+Utilisé par système allemand depuis début des années 30. On a pu le casser à la guerre car des polonais l'avaient cassé avant. Ils ont ensuite changé la machine et on en a chié.
+
+Basé sur rotors qui tournent, y a en plus des brouilleurs, et pis le tableau de connexion (sorte de clef pour configurer machine). Au début 3 roteurs puis on est passé à 4 ou 5 dans la marine notamment qui souhaitait un chiffrage plus fort).
+
+Le code est symétrique, pour décrypter il suffit de positionner correctement tout le bouzin et de taper le message crypté.
+
+###### Au delà d'Enigma : Bletchly Park
+
+Ils ont réussi à casser Enigma, mais la question demeure : faut il le cache rà l'ennemi ?
+
+##### Tomogrammiques
+
+###### Auguste Collon (env. 1900)
+
+
+Système à damiers utilisant des coordonées (deux lettres) pour chaque lettre. Présenté ensuite sous blocs de n lettres à séparer pour remettre coordonnées ensemble.
+
+Pour décrypter, commencer par trouver longueur des blocs. (Comment ? on doit trouver au max 25 bigrammes, nombre max du damier, faut donc tester)  
+Une fois qu'on a la longueur de bloc, on peut repérer les bigrammes fréquents, lancer une analyse de fréquence.  
+Une fois analyse fréquence faite, on a genre au moins le e. Faut ensuite fonctionner par mot probable pour trouver les lettres correspondant aux autres bigrammes.
+
+###### Chiffre Bifide de Delastelle (1840 - 1902)
+
+Basé sur chiffre de polybe, mais en mode chiadé : on fait des blocs de n , puis on retranscrit d'autres lettre à partir de ces nouvelles cordonnées.
+
+###### Chiffre digraphide
+
+Se base sur deux grilles avec une "clef" entre les deux. Bien bien chiadé à décrypter, bien bien chiadé à chiffrer.
+
+###### Chiffre ADFGVX
+
+Inspiré carré Polybe aussi. envoie coordonnées en morse, c'est plus simple car pas d'alpabet morse entier à retenir. Plutôt que chiffres, on utilise 5 lettres très disctinctes en morse : ADFGVX.On peut ainsi coder 36 lettres en n'en connaissant que 6 en morse.
+
+###### Chiffre PlayFair
+
+Carré de 25 lettres, mélangées ce qui forme la clef. Chiffré par groupes de deux lettres en applicant règles un peu chelou de symétrie. >> non en fait on crée juste un rectangle.   
+PlayFair est dans Polybe, on peut l'appliquer à Vigenère ?
+
+###### Chiffre SlideFaire
+
+PlayFair en Vigenère.  
+Il faut un mot-clef (pour vigenère). En se basant sur lettre du mot clef on récupère par binome de lettre : point 1 : sans décalage, point 2 : dans ligne décalée correpsondant à lettre du mot clef.
+
+Cassable avec indice de coincidence mais non plus pour 26 lettres, mais sur 650 bigrammes.
+
+###### A deux carrés
+
+On prend le playfair mais on prend deux grilles (en polybe), et on fait figure géométrique sur deux grilles.
+
+Pas facile à casser. 
+
+###### A trois carrés
+
+Bon, évolution du délire de deux carrés, mais là en plus on peut faire des trigrammes.  
+Ultra simple à utiliser ! Par binome de lettre on chope la lettre au croisement des deux grilles, pis on indique la ligne/colonne auquel ça correspond par n'importe quelle lettre présetne dans la ligne/colonne.
+
+Si on veut caser, on peut tenter d'identifier la lettre centrale. Mais c'est bien chaud.
+
+###### Chiffre affine (intro chiffre de Hill)
+
+On a besoin pour ça de deux outils moderne : arithmétique modulaire et fonction affine. 
+
+Division euclidienne : on retrouve modulo  
+Le modulo 26 permet de savoir de combien on décale (il rentre x alphabet dedans pis on décale du reste)
+
+Chiffrement affine : y = a x + b . a et b sont des constantes et constituent la clef.  
+*possible d'en savoir plus en regardant le programme du BTS SIO*
+
+###### Chiffre de Hill
+
+Attention : calculatrice calcule dans R, on calcule dnas Z (entier relatif) >> elle va donner résultats faux.  
+Calcul de matrice >> a revoir
+
+Pour déchiffrer, on peut pas fair de division de matrice. Heureusement il existe des matrices inverse !  
+
+Voir notes manuscrites pour formules math.
+
+##### La cryptographie moderne
+
+dès qu'on parle de moderne, c'est avant/après arrivée ordinateur
+
+On va voir 3 grandes parties : 
+
+* Les systèmes à clefs - clefs privés
+* Les systèmes à clefs - clefs publiques
+* Le chiffrement par blocs
+
+###### Le chiffrement par blocs
+
+on prend un bloc (mettons 4 bits), on se sépare en deux, on prend la partie de droite qu'on passe à gauche, on passe cette même partie das fonction clef , on additionne à la partie gauche et on met résultat à droite. On recommence ensuite l'opération et on ressort les deux parties collées. à chaque itération on peut utiliser une fonction différente à chauqe fois ou la même (mieux de changer).
+
+sur 4 bits dnas l'exemple du cours, ça donne un **réseau de Feistel**.
+
+###### Clefs publiques
+
+Technique permettant de garder ses clefs si on cadenasse un truc et l'envoie à quelqu'un d'autre : Deux cadenas, un chez chacun. On envoi cadenas, celui qui reçoit cadenasse et renvoie. On déverouille et renvoi à la cible, qui à réception déverrouille avec sa propre clef.  
+Problème : quand on chiffre, et qu'on rechiffre par dessus, il n'st pas possible de déchiffrer ce qui a été rechiffrer avant de renvoyer.  
+La solution à ceci est la commutativité des puissances :  (10^2)^3 = (10^3)^2. Donc si on chiffre avec ds puissances, on pourra inverser les "couches" pour déchiffrer la couche intérieure.  
+Comme c'st compliqué de travailler avec ds très grand nombres, on utilise le modulo pour réduire ça et calculer
+
+###### RSA
+
+1978  
+Explication bien chiadée mais bien fichue. On transmet deux nombres à partir de deux tenus secrets. on chiffre à partir nombres transmis, et il est possible de déchiffrer en interne grace à nombres tenus secrets.
+
+###### L'avenir
+
+Il existe aussi DES c'est peut être l'avenir. Ou la crypto quantique. 
+
+* Courbe elliptique : les matheux ont pas de théorie la dessus, c'est des graphiques avec sur couche de chiffrement... on connait pas bien la théorie donc on peut coder dessus
+* crypto quantique: on sait pas fair mais on a la théorie !
+
+### récapitulatif
+
+Bon à revoir >> base intéressante pour lui pour monter ses questions. C'est une genre de foire aux mots clef. 
