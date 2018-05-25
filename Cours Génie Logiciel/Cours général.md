@@ -1,7 +1,7 @@
 Cours général
 ========================
 
-##  Cycles du dévloppement informatique
+##  Cycles du développement informatique
 
 ### Les différents types d'essai
 
@@ -43,3 +43,24 @@ Valorise l'humain, le travail, implique le client.
 
 Il faut écouter les membres de son équipe. u_u  
 si on les implique, ils apprennent.
+
+__________________________________
+
+*25/05/18*
+
+## Thèmes abordés cette année
+
+* SCRUM (2 exposés donc + de questions )
+* KANBAN
+* Architecture Applicative (SOA, MicroService, Monolithique... )
+* PRINCE2 - Design Pattern
+* COBIT
+* XP
+* Méthodes Agiles
+
+L'exam sera un QCM avec une 50aine de questions. 2h. 
+
+
+## Mémoire
+
+Faut avoir un plan. du moment que y a un plan c'est bon. Faut déjà essayer maintenant de voir si y a assez de matière pour faire un mémoire.
