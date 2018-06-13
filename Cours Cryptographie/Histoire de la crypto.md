@@ -1,4 +1,4 @@
-# Cours crypto
+# Histoire de la crypto
 
 Deux premiers cours : histoire de la crypto  
 Calculatrice : on verra. Si oui, le mieux c'est la TI89  
@@ -284,10 +284,10 @@ _________________________________________
 
 ###### Casser Vigenère : méthode de William Friedman (1891 - 1969)
 
-Il fabrique un indice de coincidence pour chaque langage, permettant de savoir quelle est la probabilité que deux lettres prises au hasard soient identiques et utilise cet indice pour savoir si texte crypté est monoalphabétique (si l'indic colle c'est le cas). ensuite ça permet aussi de connaitre la longueur de la clef.   
-Pour trouver longueur de la clef, on tente avec diverses longueurs de clefs, à partir de 1, et on refait l'indice en prenant une lettre sur n (du coup 1 sur n, n étant la longueur de la clef, on tombe sur un truc monoalphabétique), si on obtient un indice proche de l'indice du monoalphabétiaue (0,07), c'est gagné : on a ma longueur de la clef.
+Il fabrique un indice de coincidence pour chaque langage, permettant de savoir quelle est la probabilité que deux lettres prises au hasard soient identiques et utilise cet indice pour savoir si le texte crypté est monoalphabétique (si l'indice colle c'est le cas). Ensuite ça permet aussi de connaitre la longueur de la clef.   
+Pour trouver longueur de la clef, on tente avec diverses longueurs de clefs, à partir de 1, et on refait l'indice en prenant une lettre sur n (du coup 1 sur n, n étant la longueur de la clef, on tombe sur un truc monoalphabétique), si on obtient un indice proche de l'indice du monoalphabétique (0,07), c'est gagné : on a la longueur de la clef.
 
-Fonctionne bien avec mots-clef pas trop long sur texte long. 
+Fonctionne bien avec mots-clefs pas trop longs sur texte long. 
 
 ###### Au delà de Vigenère : la machine allemande Enigma
 
@@ -299,14 +299,13 @@ Le code est symétrique, pour décrypter il suffit de positionner correctement t
 
 ###### Au delà d'Enigma : Bletchly Park
 
-Ils ont réussi à casser Enigma, mais la question demeure : faut il le cache rà l'ennemi ?
+Ils ont réussi à casser Enigma, mais la question demeure : faut il le cacher à l'ennemi ?
 
 ##### Tomogrammiques
 
 ###### Auguste Collon (env. 1900)
 
-
-Système à damiers utilisant des coordonées (deux lettres) pour chaque lettre. Présenté ensuite sous blocs de n lettres à séparer pour remettre coordonnées ensemble.
+Système à damiers utilisant des coordonnées (deux lettres) pour chaque lettre. Présenté ensuite sous blocs de n lettres à séparer pour remettre coordonnées ensemble.
 
 Pour décrypter, commencer par trouver longueur des blocs. (Comment ? on doit trouver au max 25 bigrammes, nombre max du damier, faut donc tester)  
 Une fois qu'on a la longueur de bloc, on peut repérer les bigrammes fréquents, lancer une analyse de fréquence.  
@@ -314,7 +313,7 @@ Une fois analyse fréquence faite, on a genre au moins le e. Faut ensuite foncti
 
 ###### Chiffre Bifide de Delastelle (1840 - 1902)
 
-Basé sur chiffre de polybe, mais en mode chiadé : on fait des blocs de n , puis on retranscrit d'autres lettre à partir de ces nouvelles cordonnées.
+Basé sur chiffre de polybe, mais en mode chiadé : on fait des blocs de n , puis on retranscrit d'autres lettres à partir de ces nouvelles cordonnées.
 
 ###### Chiffre digraphide
 
@@ -332,7 +331,7 @@ PlayFair est dans Polybe, on peut l'appliquer à Vigenère ?
 ###### Chiffre SlideFaire
 
 PlayFair en Vigenère.  
-Il faut un mot-clef (pour vigenère). En se basant sur lettre du mot clef on récupère par binome de lettre : point 1 : sans décalage, point 2 : dans ligne décalée correpsondant à lettre du mot clef.
+Il faut un mot-clef (pour vigenère). En se basant sur lettre du mot clef on récupère par binome de lettre : point 1 : sans décalage, point 2 : dans ligne décalée correspondant à lettre du mot clef.
 
 Cassable avec indice de coincidence mais non plus pour 26 lettres, mais sur 650 bigrammes.
 
@@ -345,7 +344,7 @@ Pas facile à casser.
 ###### A trois carrés
 
 Bon, évolution du délire de deux carrés, mais là en plus on peut faire des trigrammes.  
-Ultra simple à utiliser ! Par binome de lettre on chope la lettre au croisement des deux grilles, pis on indique la ligne/colonne auquel ça correspond par n'importe quelle lettre présetne dans la ligne/colonne.
+Ultra simple à utiliser ! Par binome de lettre on chope la lettre au croisement des deux grilles, pis on indique la ligne/colonne auquel ça correspond par n'importe quelle lettre présente dans la ligne/colonne.
 
 Si on veut caser, on peut tenter d'identifier la lettre centrale. Mais c'est bien chaud.
 
@@ -361,10 +360,10 @@ Chiffrement affine : y = a x + b . a et b sont des constantes et constituent la 
 
 ###### Chiffre de Hill
 
-Attention : calculatrice calcule dans R, on calcule dnas Z (entier relatif) >> elle va donner résultats faux.  
-Calcul de matrice >> a revoir
+Attention : calculatrice calcule dans R, on calcule dans Z (entier relatif) >> elle va donner résultats faux.  
+Calcul de matrice >> à revoir
 
-Pour déchiffrer, on peut pas fair de division de matrice. Heureusement il existe des matrices inverse !  
+Pour déchiffrer, on peut pas faire de division de matrice. Heureusement il existe des matrices inverse !  
 
 Voir notes manuscrites pour formules math.
 
@@ -400,8 +399,10 @@ Explication bien chiadée mais bien fichue. On transmet deux nombres à partir d
 
 Il existe aussi DES c'est peut être l'avenir. Ou la crypto quantique. 
 
-* Courbe elliptique : les matheux ont pas de théorie la dessus, c'est des graphiques avec sur couche de chiffrement... on connait pas bien la théorie donc on peut coder dessus
-* crypto quantique: on sait pas fair mais on a la théorie !
+* Courbe elliptique : les matheux ont pas de théorie la dessus, c'est des graphiques avec surcouche de chiffrement... on connait pas bien la théorie donc on peut coder dessus
+* crypto quantique: on sait pas faire mais on a la théorie !
+
+
 
 ### récapitulatif
 
