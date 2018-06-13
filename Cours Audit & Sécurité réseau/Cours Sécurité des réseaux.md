@@ -102,3 +102,30 @@ DNAT n'est pas Dymanic NAT comme en Cisco mais Destination NAT.
 2.2 Au lieu de laisser par défaut 80 ils vont sélectioner le 4500
 
 3.1 
+
+___________________________________________
+
+*13/06/18*
+
+
+## IPTables
+
+### NetFilter
+
+Pre-routing : Agit sur paquet avant routage, pour permettre à un client extérieur d'accéder à un membre du réseau (change adresse IP de destination) .
+Post-routing : Agit sur paquet après routage, pour permettre à un membre du réseau local d'accéder à Internet (change adresse IP source).
+
+### TP
+
+**iptables -t nat -A POSTROUTING -O eth1 -j MASQUERADE**  
+-t table  
+-o : sortie  
+-j cible  
+Masquerade masque les adresses privées du local. Un peu plus gourmande que commande suivante car elle va chercher l'IP sur internet  
+
+**iptable -t nat -A POSTROUTING -O eth1 -j SNAT --tosource XX.XX.XX.XX**  
+SNAT précise l'adresse IP source qu'on a côté Internet
+
+ La config réseau du TP est pas claire. 
+
+Il est conseillé de se faire un bloc-note avec les commandes.
