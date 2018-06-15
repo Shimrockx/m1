@@ -237,16 +237,19 @@ méthodologie de résolution : phase de conduite du changement
 
 # Etude de cas Pharmo
 
-**Objectifs et enjeux du projet **  
-L'bjectif est d'intégrer une solution ERP pour informatiser la production de la société. Les enjeux sont l'harmonisation et l'automatisation des process, l'unification des outils, la hausse de la productivité. Couverture fonctionnelle de 100%.
+**1- Objectifs et enjeux du projet **  
+L'bjectif est d'intégrer une solution ERP pour informatiser la production de la société. Les enjeux sont l'harmonisation et l'automatisation des process, l'
 
-**Contexte du projet**  
+
+ des outils, la hausse de la productivité. Couverture fonctionnelle de 100%.
+
+**2- Contexte du projet**  
 L'entreprise vient  d'effectuer un important rachat et lance ce projet dans le cadre d'une fusion d'netreprises.
 
-**Erreurs à éviter **  
+**3- Erreurs à éviter **  
 L'entrreprise veut éviter un nouvel échec, le précédent étant du à un manque d'implication de la direction et des utilisateurs et à un logiciel incomplet ne correspondant pas aux besoins
 
-**5 parties impliquées dans le projet**
+**4- 5 parties impliquées dans le projet**
 Les 5 parties sont les entreprises : 
 
 * Pharmo, le client
@@ -254,6 +257,21 @@ Les 5 parties sont les entreprises :
 * ExpRP, gère la partie gestion du projet
 * L'éditeur du logiciel, qui développera le produit
 * Le cabinet de conseil en validation
+
+**5- Tableau des acteurs et rôles**
+
+Équipe du projet delta
+
+| Domaine | PArhrmo |  |  |  |  |  |  |  |
+|----|----|----|----|----|----|----|----|----|
+| Symétrie ^ |  |  |  |  |  |  |  |  |
+| Symétrie v |  |  |  |  |  |  |  |  |
+| Rôle |  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |
+
 
 
 ## Correction
@@ -286,3 +304,84 @@ Contexte : rachat d'une entreprise  similaire au coeur de métier. La structure 
 * s'assurer de l'appui de la direction.
 * Proposer / prévoir une phase de conduite de changement avec beaucoup de plans de formation
 
+### 4 
+
+La direction
+L’entité technique  
+la partie qualité   
+partie commerciale  
+entité business
+
+### 5 
+
+direction
+
+- directeur promoteur (pharmo)
+- directeur promoteur (prisma)
+- chef de projet et 7 responsables fonctionnels (XRP)
+
+commercial
+
+- ingénieur d'affaire
+- consultant
+
+business 
+
+- Pharmo : 2RH
+- 2 consultants (prisma)
+
+technique
+
+- 3 informaticiens (prisma)
+- 2 dev et un intégratue (pharmo)
+
+qualité
+
+- 1 qualiticien (prisma)
+
+
+
+### 6 
+
+Phases décrites dans paragrahpe précédent. Donner intervenants pour chaque phase.
+
+**Lancement :**
+
+- Qualiticien
+- Chef de projet & responsables fonctionnels
+- RH
+- Tout le monde: tous les acteurs sont impliqués
+
+**Cadrage :**
+
+- Consultants
+- Responsables fonctionnels :  Prisma
+- Chargés d'affaire - Toute section business
+
+**Prototypage : **
+
+- Concepteurs et développeurs
+- Chefs de projet
+
+**Développement :**
+
+- Developpeur et intégrateurs (équipe technique)
+
+**Intégration :**
+
+- Intégrateurs
+
+**Formation et déploiement :**
+
+- Personne, ils subissent : pas d'acteur
+
+**Consolidation :**
+
+- Tout le monde
+
+
+### 7
+
+Le besoin est évolutif : le SI doit être agile, constante évolution.
+
+Le projet est en constante évolution car le SI doit être agile, proactif : prévoir besoin marché et y répondre. C'est une solution ERP verticale dont il faut assurer la maintenabilité et l'évolution.
