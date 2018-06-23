@@ -66,7 +66,7 @@ L'objectif là dedans c'est d'arriver à tomber sur 1, là c'est la boucle qui r
 
 2 ) Tout nombre est congru à ses deux derniers chiffres modulo 100
 
-## L'anneau machin : Z*n*
+## L'anneau des entiers : Z*n*
 
 ### Additions 
 
@@ -116,7 +116,114 @@ Z17* = {TOUS} (16 éléments)
 
 
 
-Prochain cour son va voir Bachel bézou >> à utiliser dans grands univers, dans petits autant faire la table.
+Prochain cour son va voir Bachet bézout >> à utiliser dans grands univers, dans petits autant faire la table.
 
-Finir les exos b et c
+b - 
+x = 7 (9)  
+insolvable (9)
+x = {0;3;6} (9)
+x = 5
 
+c - 247^349 : Faire division euclidienne pour reste, puis exponentiation modulaire, et on calcule à partir de 247³48+1
+
+## Nombres premiers, pgcd et ppcm
+
+### Nb prmiers
+
+On va redéfinir pgcd et ppcm à partir algorithme Euclide.
+
+L'ensemble des nombres premiers est infini. Démonstration faite par Euclide.  
+on se le démontre par l'absurde : on part du principe que ce nombre est fini et comme ça se contredit, c'est donc que c'est infini.  
+On part donc de : l'ensemble des nombres premier est fini : {2, ..., n}  
+La factorielle = multiplication de tous ls nombrs jusqu'à n. Factorielle de n = n!  
+n! est donc divisible par tous les nombres. Mais n! + 1 n'est divisible que par lui même et 1. Or n! > n.
+
+Tout nombre se décompose en produits de facteurs premiers.  
+Pour les trouver, on cherche les nombres premiers qui le composent, se baser sur racine carrée approximative et tester tous les nombres premiers jusque là, puis recommencer avec ce qui reste jusqu'à ce qu'il soit premier.
+
+Crible d'Ératostène : on met tous les nombre jusqu'à 100 dans un carré de 10*10 et on élimine tous les multiples de 2, puis de 3.... Ça permet de trouver les nombres premiers.  
+C'est un sacré bibliothécaire et il a un peu calculé la circonférence de la terre, le gars.  
+
+**Nombre de Mersenne**
+
+Règle disant que 2^n-1 est premier si n est premier. Ça marche très bien au début, puis à 2¹¹ ça foire. On calcule donc ls nombres de Mersenne qui sont ceux premiers selon cette règle.
+
+**Grands noms des travaux sur nombres premiers**
+
+Legendre  
+Hadamard  
+Charles de La Vallee Poussin
+Bernhard Riemann  
+
+Plusieurs formules permettent de savoir si il y a un nombre permier dans un écart
+
+### PGCD
+
+on peut utiliser le chapeau ( ^ ) pour l'indiquer. Il y a une technique . Si PGCD est 1, les nombres sont étrangers.   
+Pour trouver on décompose en nombre premier et on voit. Mais on va préférer l'algorithme d'euclide : on divise a par b et on note le reste. Puis b devient a et r devient b et on recommence jusqu'à trouver 0 ou 1
+
+### PPCM 
+
+Noté a v b
+
+a v b * a ^ b = ab; donc si a ^ b = 1, a v b = ab;
+
+
+### Bachet Bezoud
+
+**Ultra important : outil principal**
+
+Dans Z,
+
+Trouver PGCD 1800 ^ 1296  
+=> 72.   
+On en déduit que 1800 u * 1296 v = 72  
+
+On va résoudre cette équation à deux inconnues, dans Z c'est possible pas comme dnas R
+
+Démonstration sur feuille
+
+donc on a au + bv = 1 si les nombres sont étrangers. À partir de ça, on se place dans un modulo pour "supprimer" une des parties.  
+Modulo b :  bv congruent 0 dont au = 1  (b) donc u = a^-1 (b)
+Modulo a : au congruent 0 donc bv =
+
+Cette démonstration permet de : 
+- déterminer u et v dans une équation diophantiene
+- trouver facilement les éléments inversibles ! 
+
+### Indicatif d'Euler
+
+Z9* = {1,2,4,5,7,8} (6 éléments)  
+Z15* = {1,2,4,7,8,11,13,14} (8 éléments)  
+Z12* = {1,5,7,11} (4 éléments)  
+Z13* = {TOUS} (12 éléments)  
+Z17* = {TOUS} (16 éléments)   
+
+=> Dans Z*p, il y a p-1 éléments inversibles  
+=> Dans Z*n... on va utiliser la formule d'Eulère  
+Elle permet de trouver nombre d'élémnts inversibles à partir de la factorisation d'un nombre. 
+
+On va relier ça à** Fermat :**
+
+On note phi (n) le nombre d'éléments inversibles dans n
+
+### Théorème d'Euler
+
+il nous dit que si a^n, alors a^phi(n) congruent 1(n)
+
+devient ensuite 
+
+### Petit théorème de Fermat
+
+Dans un univers Z*p, n^p-1 congruent à 1 (p)
+
+Dans un univers Z*n, la puissance correspond à l'indicatif d'Euler
+
+
+### Théorème des restes chinois
+
+On l'utilise pas le théorème chinois en tant que tel, on va utiliser son corollaire : théorème des restes chinois ou lemme chinois.
+
+### Exercices
+
+Sur feuille
