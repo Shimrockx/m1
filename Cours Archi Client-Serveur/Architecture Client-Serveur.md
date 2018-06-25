@@ -75,8 +75,6 @@ Les autres architectures qu'on va voir ensuite sont globalement basées sur la m
 
 Se concentrer sur la communication plus que sur le traitement.
 
-
-
 # CORBA
 
 Même philosophie que RMI
@@ -96,6 +94,8 @@ Chacun fait ce qu'il veut avec les objets. L'idée est que chaque demande se fas
 
 On implémente un BUS logiciel (ORB) dans lequel on fait passer les demandes. Dedans on a un traducteur qui traduit la demande en un format générique et la véhicule au serveur, qui retraduit. Les adaptateurs qui font la traduction sont les OA 
 
+On a aussi un daemon (daemon ORB = orb ), qui a le même fonctionnement qu'ailleurs : en tache de fond, il orchestre les communications.
+
 ### IDL
 
 Il y a toujours besoin d'une interface qui permet de savoir tout ce qu'on peut implémenter. Ici c'est IDL : un fichier texte dans un langage particulier qui implémente l'interface. Ce fichier est partagé par le client et le serveur.
@@ -114,9 +114,7 @@ On doit définir un module pour chaque "élément" (à préciser), on peut pas e
 
 Tout modification au niveau de l'objet implique une régénération complète : on évite donc !
 
-### Suite
-
-On a aussi un daemon (daemon ORB = orb ), qui a le même fonctionnement qu'ailleurs : en tache de fond, il orchestre les communications.
+## Démarrage
 
 Ordre de démarrage :
 
@@ -125,3 +123,103 @@ Ordre de démarrage :
 - serveur
 
 - client
+
+---
+
+*30/04/18 - Cours 4*
+
+## TP
+
+Voir TP Banque
+
+---
+
+*22/05/18 - Cours 5*
+
+# JEE
+
+## Introduction
+
+JEE est un serveur d'application (Apache TomCat) non pas un simple chef d'orchestre
+On va se concentrer sur la partie EJB.
+
+JEE est une architecture, pas un langage. C'est du design pattern, une manière de développer et de penser les choses (le langage rest du java)
+
+## EJB
+
+EJB = Java Bean
+
+Il y a plusieurs formes d'EJB :
+
+- Session Bean (partie business/traitement)
+
+- Entity Bean (partie données)
+
+### Session Bean
+
+On a deux types de session Bean :
+
+- Stateful (avec état)
+
+- Stateless (sans état)
+
+Qu'est ce que ça veut dire ? >> Si le client se connecte à notre logiciel, est-ce qu'il a une version du catalogue (stateful) ou accès au seul et unique catalogue, unique pour tous (stateless) ?
+En gros la version avec état instancie les ressources là ou la sans état agit sur une entité commune et partagée.
+
+### Entity Bean
+
+C'est la couche persistance et celle qui va communiquer avec la base de données. On ne fait plus de SQL, on passe par la couche persistance (ORM)
+On va utiliser JPA (qu'on peut considérer comme une API orm). 
+Chaque entité sera une table en bdd
+
+## Méthode de travail
+
+### Annotations
+
+Existent depuis la version 5
+
+Les annotations s'écrivent avec un "@" devant . Ça permet de définir les trucs, par exemple sateful : @Stateful
+
+### SessionBean
+
+Chaque SessionBean doit définir deux interfaces et une classe
+Les deux interfaces sont *remote* et *locale*. En général, la locale hérite de la remote. On a ensuite une classe qui implémente les deux interfaces à la fois.
+
+Déclarer une interface :
+
+```java
+@Remote
+public interface Icalc {  
+    public double add ()(double a, double b);
+    ...
+    ...
+}
+```
+
+Pour la classe :
+
+```java
+@Stateful
+public class Calc implements ICalc {
+    public double add(double a, double b) {
+        return a+b;
+}
+....
+...
+}
+
+```
+
+## TP
+
+New > Project > enterprise application project 
+    choisir un nom (ne pas mettre ejp ça fait planter eclipse) 
+Next (on est en train de créer une appli avec les différentes couches qu'on peut avoir dans le serveur) 
+New module > on sélectionne les couches qui nous intéressent (ici tout sauf connector) 
+Puis finish deux fois. 
+
+Ca crée automatiquement 4 projets : le principal et les couches.
+
+Dans Projet EJB, clic droit > New > SessionBean. Mettre un nom de package.
+
+Il est possible de résumer ce TP comme un des plus mal expliqués de l'année (derrière le dev mobile quand même). Rien ne marchait, explications uniquement pour le premier rang, compréhension 0.
