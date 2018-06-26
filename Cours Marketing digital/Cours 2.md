@@ -1,11 +1,12 @@
 Cours 2
-========================
+===
+
 *29/03/18*
 
 #### 2 - La segmentation (cibler ses utilisateurs)
+
 Il y a plusieurs types de rendement (primaire, secondiare, tertiaire, quaternaire...)  
 Rendement tertiaire le plus intéressant :  celui où on vend produit.
-
 
 #### 3 - L'automatisation des processus marketing
 
@@ -19,7 +20,7 @@ attirer les leads qualifiés
 identifier les leads qualifiés  
 analyser les performances  
 
-**automatisation à travers : **  
+**automatisation à travers :**  
 botchat  
 publications auto et unifiées sur réseaux sociaux  
 systèmes de commande vocale  
@@ -54,10 +55,10 @@ On peut fixer le prix par rapport
 
 * aux coûts
 * mais aussi à l'offre (concurrents)
-ex : la fnac vend certains produit par rapport au prix d'amazon (genre pas plus de 15% plus cher...) >> redéfinition de la "zone de chalandie" autour des magasin avant (brick and mortar)
+  ex : la fnac vend certains produit par rapport au prix d'amazon (genre pas plus de 15% plus cher...) >> redéfinition de la "zone de chalandie" autour des magasin avant (brick and mortar)
 * la demande (élasticité prix/demande) : deltaD/deltaP*100
-permet de voir si on a pas une forte rentabilité à baisser le prix ou bien si on peut les monter
-prend en compte prix "magique" (9,99), prix psychologique (prix max/min qu'on est prêt à payer)
+  permet de voir si on a pas une forte rentabilité à baisser le prix ou bien si on peut les monter
+  prend en compte prix "magique" (9,99), prix psychologique (prix max/min qu'on est prêt à payer)
 * gratuits (on reviendra dessus)
 
 Vis à vis de tout ça, le digital favorise l'adaptabilité, l'ajustement dynamique du prix. **Yield management** = tarification flexible  
@@ -89,6 +90,7 @@ marketing direct - un des poste les plus important des entreprises. à partir d'
 ### B - Le markting mix enrichi par la digitalisation
 
 #### 1 - People (relation client)
+
 Ce qui devient intéressant c'est la com participative  
 On essaye de créer des amabasseurs, des représentants de la marque. On crée de la discussion entre la marque et les clients.
 
@@ -154,18 +156,20 @@ On reprend la stratégie de l'inbound, et on repère 4 objectifs
 
 * Attirer  
    Owned Media : offre de contenu que l'on possède (page FB, blog...).
-publicité
+  publicité
 * convertir  
    on veut transformer un visiteur en un prospect. Il le devient à partir du moment où il laisse une trace : il entre dans notre fichier prospect (case cochée, adress laissée). _il faut demander la permission !_
 * conclure   
    sur internet c'est beaucoup plus dur qu'en vrai. Il faut utiliser des outils, des leviers. Beaucoup utilisent le téléphone pour faciliter, déclencher l'achat,réassurer. Il faut être patient et multicanal pour transformer un prospect en client.
-on peut mettre en place un principe de scoring : inscription newsletter 3pts, rencontre sur salon : 8pts... quand le prospect arrive à un certain nombre de points, on peut prendre contact avec lui. ça permet de rationnaliser le niveau de proximité que la personne a avec la marque. ça s'automatise en plus assez facilement
+  on peut mettre en place un principe de scoring : inscription newsletter 3pts, rencontre sur salon : 8pts... quand le prospect arrive à un certain nombre de points, on peut prendre contact avec lui. ça permet de rationnaliser le niveau de proximité que la personne a avec la marque. ça s'automatise en plus assez facilement
 * réenchanter (fidéliser)  
    Créer un cercle vertueux entre la marque et le client  
    Gérer la relation clint après la vente
 
 ### D - L'expérience client Globale
+
 #### 1 - Le ZMOT
+
 "Zero Moment of Truth"  
 passe ensuite au first moment et au second moment  
 ZMOT->FMOT->SMOT  
@@ -200,4 +204,3 @@ l'outbound va chercher le consommateur, va le pousser à faire quelque chose à 
 Le numérique offre au consommateur possibilité de rechercher par lui meme les informations (le ZMOT). Attention à ne pas manipuler via ZMOT, il se méfie de plus en plus. on pense que ça se dirige de plus en plus vers les réseaux sociaux pour aller chercher l'info
 
 Les magasins ne sont pas morts, le numérique renforce leur poids en leur donnant du sens, en améliorant relation client, les vendeurs deviennent conseillers...
-
