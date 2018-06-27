@@ -14,18 +14,14 @@ Plus ce dépôt croisera de notes d'élèves, plus il sera complet et intéressa
 
 - M'envoyer vos fichiers à ajouter par mail ou Slack, si vraiment git vous fait peur
 
-
-
 Les participations peuvent être sous la forme :
 
 - d'ajout de vos fichiers dans les différents repository
 
--  d'ajout d'infos dans les notes existantes pour les compléter
+- d'ajout d'infos dans les notes existantes pour les compléter
 
 - de correction des notes existantes
 
 Le Markdown est le format le plus pratique pour lecture directe sur Github, mais si avez des documents en d'autres formats et la flemme de tout réécrire, on peut parfaitement les ajouter aux dossier et les DL pour les consulter.
-
-
 
 Je suis ouvert à toute suggestion pour améliorer le dépôt !

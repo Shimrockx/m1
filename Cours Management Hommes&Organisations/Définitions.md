@@ -182,8 +182,6 @@ Un soutien satisfaisant fait baisser le niveau de stress
 > 
 > - Comportements ou résultats et leur approbation
 
-
-
 ## Mission
 
 > Charge donnée au manager de faire quelque chose
@@ -192,19 +190,13 @@ Un soutien satisfaisant fait baisser le niveau de stress
 > 
 > Somme de plusieurs tâches
 
-
-
 ## Tâche
 
 > Unité de travail à faire dans un temps donné
 
-
-
 ## Cercle vertueux du succés
 
 *Voir schéma 67/23*
-
-
 
 ## Compétence
 
@@ -228,8 +220,6 @@ Un soutien satisfaisant fait baisser le niveau de stress
 >   
 >   - Formation (en accompagnement, en stages de formation, en scéances d'information)
 
-
-
 ## Grille managériale de Blacke & Mouton
 
 > Fondée sur oppositionentre intérêt pour personnes (relation) et pour la production (résultats).
@@ -248,8 +238,6 @@ Un soutien satisfaisant fait baisser le niveau de stress
 > 
 > - Intégrateur, **entraîneur** (9.9)
 
-
-
 ## Les 4 tiers ou la course en déséquilibre permanent
 
 > 4 aspects importants du travail du manager, mais on ne peut pas tout faire. Il faut donc en choisir trois et faire un roulement selon les contextes.
@@ -262,6 +250,174 @@ Un soutien satisfaisant fait baisser le niveau de stress
 > 
 > - Rendre compte, échanger, partager : Travail avec supérieur hiérarchique, réunions interservices, formations professionnelles
 
+# Team building
 
+## Équipe en réseau
+
+> Dans une équipe en réseau, les collaborateurs sont :
+> 
+> - **Interdépendants** : autonomes niveau 4
+> 
+> - **Solidaire** : où l'entraide peut changer de camp
+> 
+> Le manager, lui, est en retrait et n'intervient que lorsque nécessaire
+
+## Autonomie
+
+> Capacité à réaliser des tâches, sans dépendre des autres. Caractéristique d'un colaborateur à évoluer indépendamment de ses camarades
+
+### Construction de l'autonomie
+
+> La construction de l'autonomie se fait en 4 étapes  
+> L'interdépendance est nécessaire pour obtenir une équipe en réseau.   
+> Le moteur pour passer d'un niveau à un autre est la motivation
+> 
+> 1. Dépendance 
+>    
+>    - Engagement élevé
+>    
+>    - Compétences faibles
+> 
+> 2. Contre-dépendance
+>    
+>    - Engagement variable
+>    
+>    - Compétences modérées
+> 
+> 3. Indépendance
+>    
+>    - Engagement élevé
+>    
+>    - Compétences modérées à élevées
+>    
+>    - **Partage faible**
+> 
+> 4. Interdépendance
+>    
+>    - Engagement élevé
+>    
+>    - Compétences élevées
+>    
+>    - **Partage élevé**
+
+
+
+## Motivation
+
+> - Envie, volonté de faire
+> 
+> - Raisons, intérêts, éléments qui poussent un collaborateur dans son action. Grande catégorie de de déterminants internes des comportements, des activités psychologiques et des états subjectifs.
+
+*La motivation au travail*
+
+> Processus physiologiques et psychologiques responsables du déclenchement, de l'entretien et de la cessation d'un comportement ainsi que de la **valeur appétive ou aversive** conférés aux éléments du milieu sur lesquels s'exerce le comportement
+
+*Grand dictionnaire de la psychologie*
+
+### Leviers de motivation
+
+> 3 attentes fondamentales qui amplifient la motivation des collabo (d'après **Frederick Irving Herzberg**)
+> 
+> 1. **Équité pour l'emploi - EE**
+>    
+>    Être traité de façon équitable sur les aspects importants des conditions de travail, à mérite comparable :
+>    
+>    - Respect des personnes
+>    
+>    - compréhension et écoute lors des moments difficiles
+>    
+>    - évaluation (reconnaissance)
+>    
+>    - intégration aux plans de l'entreprise
+>    
+>    - Rémunération, récompenses
+> 
+> 2. **Relations de travail - RT**
+>    
+>    Développer des relations satisfaisantes avec son environnement (collègues, encadrement, clients, fournisseurs...)
+>    
+>    - Interactions intéressantes et enrichissantes
+>    
+>    - Relations chaleureuses voire amicales
+>    
+>    - Atmosphère d'entraide et de coopération
+> 
+> 3. **Situations de travail - ST**
+>    
+>    qui génèrent le "sentiment de réalisation" :
+>    
+>    - Les responsabilité (relever défi, acquérir nouvelles compétences)
+>    
+>    - L'innovation au travail (développer sa performance, intégrer de la nouveauté)
+>    
+>    - Le **sens au travail** (fierté pour l'activité de la boite, reconnaissance)
+
+
+
+## Sens au travail
+
+> Un travail a du sens pour un collabo lorsque celui-ci le trouve **important, utile et légitime**
+
+*Hackam & Oldham, 1976*
+
+> Interactions entre caractéristiques d'un emploi et différences indivuduelles influant sur la motivation :
+> 
+> - Variété des compétences
+> 
+> - Identité du travail
+> 
+> - Signification du travail
+
+
+
+### Responsable porteur de sens
+
+> 3 niveaux :
+> 
+> 1. Responsable Donneur d'Ordres
+> 
+> 2. Responsable Ressources
+> 
+> 3. Responsable Porteur de Sens
+> 
+> Le RPO est le plus sophistiqué. Il intégre l'importance du contenu via les ordres, des ressources via la relation, mais se concentre sur le sens, la vision, les enjeux.  Il agit en intelligence de situation.
+> 
+> Pas de hiérarchie ou de lien entre les 3 niveaux !
+
+
+
+### Sensmaking
+
+> Processus mental par lequel des collabo donnent du sens à une expérience de travail
+
+*Voir Karl E. Weick "Making Sense of the Organization"*
+
+#### Résilience
+
+> Capacité à faire face à l'adversité, à rebondir après des échecs ou des expriences négatives ou difficiles, et à reprendre une trajectoire positive.
+
+> 4 sources de résilience dans l'organisation :
+> 
+> - L'improvisation et le bricolage
+> 
+> - Les systèmes de rôles virtuels (on garde les roles si besoin même en cas de changement)
+> 
+> - La sagesse comme attitude (être curieux, ouvert, douter de ses connaissances...)
+> 
+> - L'interaction respectueuse
+
+#### Construction du sens
+
+> On y trouve 4 dimensions :
+> 
+> 1. La participation à un projet
+> 
+> 2. La solidarité et la coopération dans le groupe
+> 
+> 3. La professionalisation et le métier
+> 
+> 4. Le sentiment d'appartenance à une entreprise
+> 
+> La résilience de l'organisation va permettre la construction du sens et surtout empêcher son effrondrement lors de changements.
 
 
