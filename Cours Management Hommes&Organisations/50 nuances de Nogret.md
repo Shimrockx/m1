@@ -1,3 +1,5 @@
+Tout le bullshit qu'a pu balancer Nogret dans l'année. À prendre ou à laisser.
+
 # Grands principes
 
 - Il est intéressant de garder un oeil sur le turn-over : trop de jeunes ne restent pas, tandis que les vieux restent mais décroissent
@@ -18,4 +20,8 @@
 
 - Le boulot spécialisé peut changer, celui du manager est garanti
 
-- 
+- Jonny Wilkinson est un "pédé de rosbeef"
+
+- En cas de crise, les entreprisesqui s'en sortent sont celles qui récupèrent les missions restantes ou qui savent se mettre en "stase" -> chômage technique, osef des lois.
+
+- Le management directif, c'est du management "à la culotte"

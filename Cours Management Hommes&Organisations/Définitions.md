@@ -222,7 +222,7 @@ Un soutien satisfaisant fait baisser le niveau de stress
 
 ## Grille managériale de Blacke & Mouton
 
-> Fondée sur oppositionentre intérêt pour personnes (relation) et pour la production (résultats).
+> Fondée sur opposition entre intérêt pour personnes (relation) et pour la production (résultats).
 > 
 > Sert de constat, de mesure de qualité, mais de donne aucune solution pour l'efficacité recherchée. **À ne pas suivre comme modèle**
 > 
@@ -300,8 +300,6 @@ Un soutien satisfaisant fait baisser le niveau de stress
 >    
 >    - **Partage élevé**
 
-
-
 ## Motivation
 
 > - Envie, volonté de faire
@@ -352,8 +350,6 @@ Un soutien satisfaisant fait baisser le niveau de stress
 >    
 >    - Le **sens au travail** (fierté pour l'activité de la boite, reconnaissance)
 
-
-
 ## Sens au travail
 
 > Un travail a du sens pour un collabo lorsque celui-ci le trouve **important, utile et légitime**
@@ -367,8 +363,6 @@ Un soutien satisfaisant fait baisser le niveau de stress
 > - Identité du travail
 > 
 > - Signification du travail
-
-
 
 ### Responsable porteur de sens
 
@@ -384,8 +378,6 @@ Un soutien satisfaisant fait baisser le niveau de stress
 > 
 > Pas de hiérarchie ou de lien entre les 3 niveaux !
 
-
-
 ### Sensmaking
 
 > Processus mental par lequel des collabo donnent du sens à une expérience de travail
@@ -395,7 +387,7 @@ Un soutien satisfaisant fait baisser le niveau de stress
 #### Résilience
 
 > Capacité à faire face à l'adversité, à rebondir après des échecs ou des expriences négatives ou difficiles, et à reprendre une trajectoire positive.
-
+> 
 > 4 sources de résilience dans l'organisation :
 > 
 > - L'improvisation et le bricolage
@@ -419,5 +411,196 @@ Un soutien satisfaisant fait baisser le niveau de stress
 > 4. Le sentiment d'appartenance à une entreprise
 > 
 > La résilience de l'organisation va permettre la construction du sens et surtout empêcher son effrondrement lors de changements.
+
+## Esprit d'équipe
+
+> Traduit la capacité du'ne personne à participer à l'atteinte d'un objectif partagé, à collaborer avec les autres, à **privilégier la réussite du groupe plutôt que sa réussite individuelle**
+> 
+> - Implique un lien entre ses membres
+> 
+> - Faire corps les uns avec les autres
+> 
+> - Capacité de travailler en équipe, d'aider les autres, de reconnaître la valeur de leurs actions
+> 
+> On y retrouve
+> 
+> - Engagement élevé
+> 
+> - Des compétencs élevées
+> 
+> - Un partage élevé
+
+## 4C de l'équipe en réseau
+
+> - **Cohésion** : Esprit de corps. Inspire la crainte et le respect aux concurrents
+> 
+> - **Confiance** : Donner des objectifs difficles mais atteignables. Va dans les deux sens !
+> 
+> - **Concentration** : S'engager à fond, être à 200%, laisser les collbaos dire qu'ils sont à bout. Use les concurrents
+> 
+> - **Combativité** : On doit être hargneux, ne jamais renoncer. Les concurrents doivnt se dire qu'ils ont aucune chance.
+
+## Styles de manager
+
+> On retrouve 7 styles de manager selon ses stratégies de décision :
+> 
+> - **Décision unilatérale** : chef seul qui demande exécution
+> 
+> - **Persuasion** : chef seul qui cherche à convaincre
+> 
+> - **Consultation** : chef recueille avis et suggestions puis décide
+> 
+> - **Concertation** : chef se met d'accord avec un collaborateur sur décision et mise en oeuvre
+> 
+> - **Négociation** : chef recherche avec collaborateur solution mutuellement satisfaisante
+> 
+> - **Délégation** : chef confie à un collaborateur le pouvoir de prendre une décision
+> 
+> - **Décision de groupe** : chef permet à un groupe de collabo de prendre une décision
+
+## Modèle Hersey & Blanchard
+
+À ne pas confondre avec Blake & Mouton !
+
+- B&M : Mesure de qualité
+
+- H&B : Mesure d'état d'esprit
+
+### Critères d'évaluation des collabo
+
+> - **Motivation (E)** : capacité à entretenir de bonnes relations, confiance en soi, désir de responsabilités, engagement, confiance en ses capacités
+> 
+> - **Compétence (C)** : savoir-faire, habileté, capacités et connaissances
+> 
+> Il y a 4 niveaux par critère
+
+### Motivence (M)
+
+> Degré de motivation et de compétence d'un interlocuteur pour une tâche donnée à un moment précis
+> 
+> M = E + C
+
+### Types de collaborateurs
+
+> |                 | Peu compétent (C-)                                                                |                                                                                                   |     | Compétent (C+)                                                                                                   |
+> | --------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | --- | ---------------------------------------------------------------------------------------------------------------- |
+> | Motivé (E+)     | **Volontaires**<br/>Dépendance<br/>Juniors, nouveaux arrivants...                 |                                                                                                   |     | **Autonomes**<br/>Interdépendance<br/>Très autonomes, piliers de l'équipe                                        |
+> |                 |                                                                                   | **Distanciés**<br/>Contre-dépendance<br/>Attendent de voir et cherchent à être rassurés pour agir |     |                                                                                                                  |
+> | Peu motivé (E-) | **Exécutants**<br/>Bugs bunny<br/>Pas incompétent, mais clairement pas à sa place |                                                                                                   |     | **Égocentrés**<br/>Indépendance<br/>Anciens proches de la retraite, ou collabos anxieux, frustrés ou mal pilotés |
+
+### Adaptabilité du style
+
+> L'efficacité réside dans l'utilisation du style le plus adapté à la situation.
+> 
+> La différence entre un style efficace et inefficace réside dans l'adaptation ou l'inadaptation d'un comportement donné à la situation à traiter, pas dans un comportement à incriminer plus qu'un autre. 
+
+### Styles de management adaptés aux collabo
+
+> En fonction de deux comportements du manager : instrumental (encadrer) et relationnel (encourager)
+
+|              | Encadrer -<br/><br/>(Bienveillance)                                                  | Encadrer +<br/>(Directivité)                                                                    |
+| ------------ | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| Encourager + | **Mobilisateur**<br/>Épaule, favorise le fonctionnement autonome<br/>Pour Égocentrés | **Incitatif**<br/>Entraîne, met en confiance<br/>Pour Volontaires                               |
+| Encourager - | **Délégatif**<br/>Délègue, favorise l'initiative<br/>Pour Autonomes                  | **Indicatif**<br/>Dirige, pilote le collabo au plus près<br/>Pour Distanciés (voire Exécutants) |
+
+# Mobiliser son équipe
+
+> La mobilisation vient des 3 A : 
+> 
+> - Alignement (rôle Capitaine)
+> 
+> - Appropriation (rôle Coach)
+> 
+> - Appui (rôle Arbitre)
+
+
+
+## Ordre
+
+> Commandement, injonction, consigne impérative donnée par le manager
+> 
+> Solution d'urgence uniquement
+> 
+> Comporte un filtre important pour pouvoir être donné, mieux vaut l'éviter :
+> 
+> - Situation d'urgence
+> 
+> - Pas de compétence ou faible compétence
+> 
+> - Pas coopérant, voire opposant
+
+
+
+## Alignement
+
+>  Comportement du manager qui donne une direction à toute son équipe
+
+> Donner un alignement efficace :
+> 
+> - Commencer par le "pourquoi"
+> 
+> - Relativiser sa vérité (il semble que, ma préoccupation est...)
+> 
+> - Préciser les choses (éviter "toujours" ou "jamais")
+> 
+> - Laisser les collabo réagir
+
+
+
+## Appropriation
+
+> Comportement du manager qui, par une série de questions, induit chez son collaborateur **une prise de responsabilité ou d'autonomie** dans la résolution de ses problèmes ou dans la réalisation de son travail.
+
+> Faciliter l'Appropriation :
+> 
+> - Considérer que le collabo est le propriétaire de la situation et seul à pouvoir la régler
+> 
+> - Écouter, même si on est pas d'accord
+> 
+> - Saisir l'essentiel
+> 
+> - Garder une distance émotionnelle
+
+
+
+## Appui
+
+> Comportement du manager qui manifeste son appréciation de la valeur de son collaborateur et la reconnaissance de son mérite
+
+> Pour un Appui efficace :
+> 
+> - Accueil positif
+> 
+> - Faits positifs (**référence au travail bien fait**, **mise en avant du point spécifique**)
+> 
+> - **Rappel des qualités**
+> 
+> - **Préciser les conséquences induites** pour l'entreprise, l'équipe, le projet, lui-même avec atteinte des objectifs
+> 
+> - **Conclure par un encouragement** à poursuivre
+
+> Doit répondre à trois critères : 
+> 
+> - Authtentique : **crédible et sincère**
+> 
+> - Précis : **spécifique** à action ou idée
+> 
+> - **Contenu limité** : ne pas généraliser
+
+
+
+## Mobilisation
+
+> Pour mobiliser en se servant des 3 A, on démarre par Appropriation
+> 
+> - Démarrer par questions ouverte -> Entrée en dialogue
+> 
+> - Puis question fermée pour amener précision
+> 
+> - S'assurer qu'on a compris en reformulant
+>   
+>   - Si oui, on peut appliquer les A adaptés (Alignement, Appui)
+>   
+>   - Si non, on recommence l'appropriation
 
 
