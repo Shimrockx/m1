@@ -1,5 +1,5 @@
 Architecture monolithique
-==============
+===
 
 *19/04/18*
 
@@ -19,7 +19,7 @@ Le logiciel a une seule techno et donc c'est ce logiciel qui fait tout, quel que
 Difficulté dans changement : on doit tout reprendre pour la moindre modification, il fuadrait tout réécrire, sinon ça risque de pas s'mboiter avec le reste. De plus en plus compliqué de modifier quand logiciel grossit.  
 Excellentes possibilités doptimisation du code par contre : on doit répondre à un besoin simple et on réfléchi à l'optimisation de son exécution.
 
-### Déploiement 
+### Déploiement
 
 il est assez simple, car on a un serveur, un processus.  
 encore une fois ça pousse à l'optimisation : bons temps de réponse, exécution rapide.  
@@ -55,7 +55,6 @@ Berk :
 * Fort couplage des modules  => application difficile à revoir et à modifier sans avoir à tout revoir dans l'application
 * le code devient vite difficile à comprendre => vriament dur à faire évoluer, en plus c'est prendre des risques si on mélange les équipes qui travaillent dessus. Le code devient n'importe quoi
 
-
 ## Monolithiques VS microservices
 
 Joli tableau dans le prezi  
@@ -71,7 +70,6 @@ On est vraiment bloqués sur une techno
 Forte possibilité d'amélioration du code  
 Gestion de projet en cascade et V  
 un seul truc qui fait tout  
-
 
 ## Bouiche
 
