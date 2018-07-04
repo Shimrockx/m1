@@ -1,44 +1,50 @@
 ITIL
-========================
-règle des problèmes récurrent en POO
+===
 
-objectif : améliorer efficacité
+Règle des problèmes récurrent en POO
 
-# Histoir
+Objectif : améliorer l'efficacité
 
-années 80 > datacenter se décentraliser et architectures distribuées. Gouvernement royaue uni 
+## Histoire
 
-s'appui sur 5 publicatiosn essentielles
+Années 80 > Datacenter se décentralise et architectures distribuées. Gouvernement Royaume-Uni
+
+S'appuie sur 5 publications essentielles
+
 - Service Strategy
 - Service Design
 - Service Transition
 - Service Operation
 - Continual service
 
-Je suis crevé j'bandonne
-
+Je suis crevé j'abandonne
 
 ## Gestion infrastructure
 
-les infra informatique sont gérées par tout ce qui est nécssaire pour fournir service
+Les infra informatique sont gérées par tout ce qui est nécessaire pour fournir service
 
 ## les experts de l'infra en ITIL
 
-y  aplein d'experts 
+Y  a plein d'experts
 
 # Gestion des accès
 
-processus d'application de politique de sécu.
+Processus d'application de politique de sécu.
 
 # Service desk
-poitn contact unique entre client et service informatiuqe 'suivi incident ou probleme)= tout contact passe par là
-en général divisé en niveuax 1/2/3 > service alors dit verticaux
-on peut aussi les avoir en horizontaux : 1 répond et gère au max sinon réoriente vers un spécialiste
-jamais un usr contacte un niveua supérieur en direc tou un presta externe
+
+Point de contact unique entre client et service informatique  
+Suivi incident ou probleme = tout contact passe par là
+
+En général divisé en niveaux 1/2/3 > Les services sont alors dit verticaux  
+On peut aussi les avoir en horizontaux : 1 répond et gère au max, ou sinon réoriente vers un spécialiste
+
+Un utilisateur ne contacte jamais un niveau supérieur ou un prestataire en direct
 
 # Gestion des évènements
 
-y faut faire roter vers les gens compétent
+Y faut faire roter vers les gens compétent  
+*(ok alors là j'étais vraiment fatigué je sais même pas ce que j'ai voulu dire)*
 
 # Gestion des problèmes
 
@@ -48,8 +54,8 @@ J'ai rien compris
 
 # Bouiche
 
-dit qu'il faut retenir en ITIL que le plus important c'est qu'il faut retenir de ses erreurs
+Dit qu'il faut retenir en ITIL que le plus important c'est qu'il faut retenir de ses erreurs
 On enregistre tout, on loggue tout
-Il y a plusiuers versions d'ITIL
-ITIL c'est du bon sns, c'est une organisation de service.
+Il y a plusieurs versions d'ITIL
+ITIL c'est du bon sens, c'est une organisation de service.
 Ça apprend à organiser un service desk.

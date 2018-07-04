@@ -5,24 +5,24 @@ Architecture monolithique
 
 ## Principes du monolithique
 
-"qui est fait d'un seul bloc" => code dans un seul fichier.  
-créé à partir des premiers langages pour comminuqer avec machines (le B, le C). On scriptait tout dans un seul fichier.  
-Ca a perduré avec le temps.  
+"Qui est fait d'un seul bloc" => code dans un seul fichier.  
+Créé à partir des premiers langages pour comminquer avec les machines (le B, le C). On scriptait tout dans un seul fichier.  
+Ça a perduré avec le temps.  
 => ça a donné crise du logiciel par la suite
 
 ## Application monolithique
 
-Ne fonctionne qu'avc une seule technologie parce que c'est conçu pour aller d'un point A à un point B  
+Ne fonctionne qu'avec une seule technologie parce que c'est conçu pour aller d'un point A à un point B  
 Conçu pour remplir un but de la façon la plus simple possible.  
 Ça bloque donc au niveau technologique => restreint dans techno utilisée de base.  
-Le logiciel a une seule techno et donc c'est ce logiciel qui fait tout, quel que soit le niveua de l'action.  
-Difficulté dans changement : on doit tout reprendre pour la moindre modification, il fuadrait tout réécrire, sinon ça risque de pas s'mboiter avec le reste. De plus en plus compliqué de modifier quand logiciel grossit.  
-Excellentes possibilités doptimisation du code par contre : on doit répondre à un besoin simple et on réfléchi à l'optimisation de son exécution.
+Le logiciel a une seule techno et donc c'est ce logiciel qui fait tout, quel que soit le niveau de l'action.  
+Difficulté dans changement : on doit tout reprendre pour la moindre modification, il faudrait tout réécrire, sinon ça risque de pas s'emboiter avec le reste. De plus en plus compliqué de modifier quand le logiciel grossit.  
+Excellentes possibilités d'optimisation du code par contre : on doit répondre à un besoin simple et on réfléchit à l'optimisation de son exécution.
 
 ### Déploiement
 
-il est assez simple, car on a un serveur, un processus.  
-encore une fois ça pousse à l'optimisation : bons temps de réponse, exécution rapide.  
+Il est assez simple, car on a un serveur, un processus.  
+Encore une fois ça pousse à l'optimisation : bons temps de réponse, exécution rapide.  
 
 ### Gestion de projet
 
@@ -46,8 +46,8 @@ Il permet en effet plus facilement de revenir sur l'étape précédente.  Ça ap
 
 Miam :
 
-* Plutôt avec des lanages bas  niveau => grnade maitrise logicielle et matérielle, logiciels très optimisés. On fait des géants très performants avec ça
-* L'application va faire tous les traitements de A à Z => facile à conceptualiser, à concevoir.  Moins de complexité dnas la gestion et la construction que microservice.
+* Plutôt avec des langages bas niveau => grande maitrise logicielle et matérielle, logiciels très optimisés. On fait des géants très performants avec ça
+* L'application va faire tous les traitements de A à Z => facile à conceptualiser, à concevoir.  Moins de complexité dans la gestion et la construction que microservice.
 * Facilité de déploiement !
 
 Berk : 
@@ -61,15 +61,15 @@ Joli tableau dans le prezi
 
 ## Conclusion
 
-la monolithique est encore très utilisée aujourd'hui, bien que microservices soient préconisés  
+La monolithique est encore très utilisée aujourd'hui, bien que microservices soient préconisés  
 La majorité des logiciels aujourd'hui sur un PC par exemple est en monolithique.  
-Les microservices sont surtout présents dnas web  
-Entreprises s'y mettent mais logique et trucs présents sont encor en monolithique.  
+Les microservices sont surtout présents dans le web  
+Entreprises s'y mettent mais logique et trucs présents sont encore en monolithique.  
 
 On est vraiment bloqués sur une techno  
 Forte possibilité d'amélioration du code  
 Gestion de projet en cascade et V  
-un seul truc qui fait tout  
+Un seul truc qui fait tout  
 
 ## Bouiche
 
