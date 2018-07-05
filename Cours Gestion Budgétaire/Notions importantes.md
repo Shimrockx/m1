@@ -1,3 +1,5 @@
+
+
 # Notions importantes
 
 ## Lexique
@@ -27,6 +29,18 @@ PM : Point Mort
 Lo = Levier Opérationnel
 
 e = Élasticité
+
+Vo = Montant d'emprunt
+
+a = Annuité
+
+i = Intérêt
+
+n = Durée d'emprunt
+
+BFR = Besoin en Fond de Roulement
+
+CAF = Capacité d'AutoFinancement
 
 ## Formules
 
@@ -61,6 +75,18 @@ $$
 $$
 Lo = e = \frac{MCV}{REX} = \frac{CA}{CA-SR} = \frac{\frac{ΔREX}{REX}}{\frac{ΔCA}{CA}} = \frac{ΔREX \times CA}{ΔCA \times REX}
 $$
+
+$$
+Vo = (Besoin + BFR) - Apport
+$$
+
+$$
+a = \frac{Vo \times i}{(1-(1+i))^{-n}}
+$$
+
+
+
+
 
 ## Budget de trésorerie
 
@@ -145,9 +171,50 @@ Pour établir un budget de trésorerie, calculer, par mois :
 Budget de trésorerie
 
 - Trésorerie initiale (banque + disponibilité pour mois 1, puis trésorerie finale ensuite)
-
 - Total encaissements
-
 - Total décaissements
-
 - Trésorerie finale (initiale + encaissements - décaissements)
+
+## Tableau de remboursement
+
+Pour chaque année (ligne), on inscrit sur la ligne :
+
+- Le capital de début (montant de l'emprunt ou capital fin de période précédente)
+- Le montant des intérêts (capital de début * taux d'intérêt)
+- Les annuités (fixes : voir formule)
+- L'amortissement, ou capital remboursé en fin de période (Annuités - Intérêts)
+- Le capital de fin de période (Capital de début - Amortissement)
+
+## CAF Prévisionnelle
+
+Pour chaque année (colonne), on inscrit :
+
+- Chiffre d'affaire
+- Charges variables
+- Charges fixes
+- Intérêts (issus tableau remboursement)
+- Amortissement de l'investissement (à calculer depuis énoncé si non donné)
+- Résultat avant impot (CA - toutes les lignes jusqu'à celle-ci)
+- Impôt sur le revenu (Résultat avant impôt * 33%)
+- Résultat net après IS (Résultat avant impôt - Impôt)
+- Amortissement (le retour)
+- CAF (Résultat net + Amortissement)
+
+## Plan de financement
+
+On note dans 4 colonnes :  Début année N, Fin année N, puis N+... jusqu'à fin de période étudiée  
+La variation de BFR se calcule simplement en soustrayant le BFR(N+1) au BFR(N).
+
+- Apports (uniquement pour année concernée)
+- Emprunts (uniquement pour année concernée)
+- Variation BFR si négative
+- Total 1 (tout ce qui précède)
+- Acquisitions (ce qui a été acquis via l'emprunt)
+- Remboursements (Amortissement du tableau d'emprunt)
+- Dividendes
+- Variation BFR si positive
+- Total 2 (uniquement élément post-total 1)
+- Solde (Total 1 - Total 2)
+- Trésorerie initiale (Trésorerie finale de la colonne suivante)
+- Trésorerie finale (Solde + Trésorerie initiale)
+
