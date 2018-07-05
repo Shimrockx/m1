@@ -4,6 +4,10 @@ Cours pour l'année de M1 à Sciences-U Lyon.
 
 Concentration sur les cours avec un exam, donc si certains sont tout pourris c'est normal.
 
+## Formules mathématiques
+
+Les formules mathématiques notées dans les cours ne sont pas lisibles directement sur github puisqu'elles sont générées via MathJax, non supporté sur Github. Vous pouvez les visualiser via le logiciel [Typora](https://typora.io/), ou tout autre logiciel prenant en charge MathJax.
+
 ## Participer
 
 Plus ce dépôt croisera de notes d'élèves, plus il sera complet et intéressant. Toute participation est donc la bienvenue, pour cela vous pouvez :
