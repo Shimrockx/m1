@@ -271,6 +271,10 @@ Q4: Éléments d'arithmétique - 3pts - Basé sur méthodologie (fortes chances 
 
 Q5: Problème 2 - 6pts - Basé sur la compréhension, faisable
 
+
+
+Un exercice où il faudra trouver les éléments inversibles
+
 ## Algorithme de Diffie-Hellman
 
 Protocole de génération de clé par canal public. Il ne s'agit pas d'un système de cryptage. 
@@ -288,3 +292,17 @@ Il est décidé de deux nombres g et n transmis publiquement. De chaque côté, 
 Il s'agit ici non plus d'une simple transmission de clef, mais carrément d'un message chiffré, avec le concept de clé publique qui apparait. Assez proche de Diffie-Hellman dans l'idée, puisqu'on utilise encore une fois le délire des puissances et la transmission de chiffres publics, sauf que cette fois-ci l'expéditeur utilise le bouzin pour définir une clé, puis utilise cette clef pour chiffrer le message , et renvoie le tout.
 
 Exercice sur feuille
+
+
+
+## Équation ax + by = c où a et b premiers entre eux
+
+Soit d le PGCD de a et B
+
+Si d est un multiple de c, on peut trouver un ensemble de solution (au moins une), **sinon il n'y en a pas**
+
+
+
+
+
+

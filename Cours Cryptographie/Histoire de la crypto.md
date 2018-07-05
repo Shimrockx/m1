@@ -3,6 +3,7 @@
 Deux premiers cours : histoire de la crypto  
 Calculatrice : on verra. Si oui, le mieux c'est la TI89  
 Exam : environ 2h, en amphi. 3 exercices :  
+
 - 1 sur théorème des restes chinois >> là pour attraper un max de points  / 4pts  
 - 1 sur questions d'histoire  /  4pts  
 - Exercice de cryptage sur un système qu'on a jamais vu ensemble // 12pts  
@@ -32,7 +33,7 @@ sténographie :  dissimulation d'un message dans un ensemble de données d'appar
 
 # Histoire
 
-## Chronologie 
+## Chronologie
 
 **Polype** - César - **Al Kindi** (900/1000) - **Vigenère**
 
@@ -51,15 +52,16 @@ Contemporaine
 
 Il est exigant sur la chronologie, attention ! On doit être capable de faire une demi pag sur chaque gars à la fin.
 
-## Différentes stratégies 
+## Différentes stratégies
 
 Cacher - coder - crypter
 
 ### Cacher
 
 #### Steganographie
+
  cacher le message  dans un support qui semble anodin.
- 
+
 - noyer le message dans un autre
 - écrire sur crâne et attendre que cheveux repousse
 - écrire sur tablette en bois et recouvrir de cire pour faire croire à tablette vierge
@@ -118,7 +120,7 @@ Lire une ligne sur deux // Acrostiche (pas de lettre, de mot)
 le gars a collé toutes les lettres de la bible et fait des sauts entre les lettre pour capter des "messages secret"  
 Théorème de Borel : avc un grand nombre de lettrs, on peut faire plein de mots.
 
-### Coder 
+### Coder
 
 #### Le code de Mary Stuart
 
@@ -138,7 +140,7 @@ Les caractères souvent utilisés sont généralement très courts. Ceux moins t
 
 ...
 
-#### Le code Navajo 
+#### Le code Navajo
 
 Une langue indigène (indienne) très complexe. Ils ont utilisé cette langue (un millier d'utilisateurs au monde tout au plus). Cétait donc codé et si décodé en plus la langue était impossibl à comprendre.
 difficulté : les mots de la langue sont pas adaptés donc ils trouvent des équivalents. Fallait aussi pas qu'un Navajo trombe aux mains de l'ennemi.
@@ -150,12 +152,11 @@ difficulté : les mots de la langue sont pas adaptés donc ils trouvent des équ
 On change l'ordre des lettres selon un clé indiquant comment on permute sur un lot de n lettres. (genre 4 lettres qu'on change en 2, 4, 1, 3)  
 Ca a été utilisé par Galilée notamment, pour protéger ses recherches : il avait publié le truc en crypté pour prouver qu'il était le premier à avoir trouvé qqch.
 
-##### Lecture globale              
+##### Lecture globale
 
 En lecture globale on peut trouver facielment (ne bloquant la première et la dernière et on change l'ordre lettres dnas mot)
 
-
-##### Scytale romaine 
+##### Scytale romaine
 
 bâton sur lequel on enroule ruban et on écrit dessus, puis complète avec autres lettres, il faut ensuit baton du bon diamètre pour déchiffrer
 
@@ -177,7 +178,7 @@ Il faut par contre pouvoir transmettre le mot clef et savoir comment lire les li
 
 Comment renforcer ce système (un peu léger de base) ?  Faire deux transpositions. On peut aussi transposer d'abord les colonnes, puis les lignes, mais ça change rien vraiment, il faudrait plutôt avoir deux chiffres différents.
 
-#### Approche 02 : chiffre de sustitution 
+#### Approche 02 : chiffre de sustitution
 
 Consiste à remplacer lettres ou mots par autres symboles.  
 4 grandes familes :
@@ -199,7 +200,6 @@ Pour sécuriser le truc, on peut faire un carré de Polybe  en désorganisant l'
 ###### Georges Perec
 
 Auteur de "La disparition", et de "Les revenentes" (que avec la voyelle e). Il a aussi fait un grand palindrome.  
-
 
 ###### L'alphabet désordonné
 
@@ -228,6 +228,7 @@ Il y a des diagrammes pour toutes les langues. Les 4 europpéennes principales s
 Pour analyse de fréquence, il faut des messages relativement longs (ou plusieurs messages courts avec la même clef).
 
 ###### Substitution homophonique
+
 Pour échapper à l'analyse de fréquence, on peut définir plusieurs symboles pour une même lettre : 
 
 * chiffre de Sully, 
@@ -259,12 +260,12 @@ Variantes :
 * chiffre de Beaufort : au lieu d'ajouter la clef, il la soustrait.
 * Chiffre de Gronsfield : remplace mot clef par chiffre clef > réduit les 26 possibilités à 9.
 * _Masque jetable_ : **methode INCASSABLE**. Seul algo de cryptage indécryptable. C'est un chiffre de vigenère dont la clef de chiffrement est égale à la longueur du message. Il faut pour ça :
- * choisir une clef aussi longue
+  * choisir une clef aussi longue
     * utiliser une clef formée de caractères aléatoires
     * protéger la clef
     * jamais réutiliser la clef
     * écrire textes clairs ne contenant que des lettres (pas de ponctuation ou espace)  
- -> Message transmis via valise diplomatique !
+      -> Message transmis via valise diplomatique !
 * Cylinre de Jefferson : plusieurs disques avec alpabet. C'est un Vignère automatisé
 
 ####### Casser Vigenère : Méthode de Bazeries
@@ -278,7 +279,7 @@ Basé sur la recherche des redondances dans le message. Ces redondances vont don
 Besoin d'un message plutôt long. On reporte les redondances en comptant les possibilité, puis on compare entre toutes les redondances pour trouver la longueur qui colle à toutes.  
 À partir de ça, on fait des analyse de fréquence pour chaque décalage de la clef. 
 
-_________________________________________
+---
 
 *25/05/18*
 
@@ -401,8 +402,6 @@ Il existe aussi DES c'est peut être l'avenir. Ou la crypto quantique.
 
 * Courbe elliptique : les matheux ont pas de théorie la dessus, c'est des graphiques avec surcouche de chiffrement... on connait pas bien la théorie donc on peut coder dessus
 * crypto quantique: on sait pas faire mais on a la théorie !
-
-
 
 ### récapitulatif
 
