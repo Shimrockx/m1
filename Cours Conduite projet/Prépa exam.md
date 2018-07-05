@@ -1,5 +1,5 @@
 Prépa exam
-========================
+===
 
 Exam en deux parties : 
 
@@ -44,7 +44,6 @@ An 1 :  646 400
 An 2 : 746 400  
 An 3 : 746 400
 
-
 ### Correction
 
 Bon déjà il s'est planté sur le budget du voeux truc en inversant ls pourcentages.
@@ -54,19 +53,17 @@ An 1 : 500 000
 An 2 : 600 000  
 An 3 : 600 000  
 
-
-
 Tout est en K€ 
 
-| Désignation | Investissement | CPF (jours * ??) | Mainenance |
-|----|----|----|----|
-| HN - Serveur prod | 80 | 4 * 1 500 | 8 |
-| Servueur dev&test | 10 | 2 * 1 500 | 1 |
-| Self ERP | 500 | 5 * 1 500 | 0 |
-| Self Oracle Prod | 120 | 2 * 1 500 | 26,4 |
-| Self Oracle Dev/test | 20 | 2 * 1 500 | 4,4 |
-| Custo | | 300 | |
-| Paramétrage | 250 |  | |
-| Données |  | 125 |  |
-| Formation admin |  | 10 * 1 |  |
-| Formation user |  |  |  |
+| Désignation          | Investissement | CPF (jours * ??) | Maintenance |
+| -------------------- | -------------- | ---------------- | ----------- |
+| HN - Serveur prod    | 80             | 4 * 1 500        | 8           |
+| Serveur dev&test     | 10             | 2 * 1 500        | 1           |
+| Self ERP             | 500            | 5 * 1 500        | 0           |
+| Self Oracle Prod     | 120            | 2 * 1 500        | 26,4        |
+| Self Oracle Dev/test | 20             | 2 * 1 500        | 4,4         |
+| Custo                |                | 300              |             |
+| Paramétrage          | 250            |                  |             |
+| Données              |                | 125              |             |
+| Formation admin      |                | 10 * 1           |             |
+| Formation user       |                |                  |             |
