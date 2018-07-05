@@ -1,10 +1,11 @@
 RAD
-========================
+===
+
 *19/04/18*
 
 **R**apid **A**pplication **D**evelopment
 
-## Cycle de vie 
+## Cycle de vie
 
 * Initialisation
 * Cadrage
@@ -25,7 +26,7 @@ Y a plusieurs phases, avec des documents liés à chacune.
 
 ### Inconvénients du RAD
 
-Il parle de recherche d'emploi, je sais pas pouruqoi. Das l'idée, ça fait partie des grosses compétences recherchées dnas le métier : 
+Il parle de recherche d'emploi, je sais pas pourquoi. Dans l'idée, ça fait partie des grosses compétences recherchées dans le métier : 
 
 - gestion de projet 
 - rigueur et méthode 
@@ -45,4 +46,3 @@ Après RAD2 sont arrivé des méthodes liées
 * SCRUM
 * UP
 * ASD et FDD
-

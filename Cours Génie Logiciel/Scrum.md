@@ -1,36 +1,38 @@
+# Scrum
+
 *25/05/18*
 
-# Exposé
+## Exposé
 
-## Définition
+### Définition
 
 Permet de résoudre problèmes complexes  
 Axé notamment sur la création de valeur
 
-## Rôles
+### Rôles
 
 product owner > joue le rôle du client
 scrum master > chef de projet
 équipe de dev > indéterminée, pas de hiérarchie interne.
 
-## Sprint
+### Sprint
 
 Mini projet qui dure un mois. Date de début et date de fin définies.  
 Évite le cycle en V : pas de retour en arrière par rapport aux étapes d'avant, on évolue plutôt.
 
-## Sprint planification
+### Sprint planification
 
 L'équipe s'autogère et prévoit elle meme en moins de 8 heure de ce qu'elle va faire pendant ce sprint
 
-## Melee quotidienne
+### Melee quotidienne
 
 Réunion quotidienne de 15min pour faire le point entre tous et bilan de la veille.
 
-# Cours
+## Cours
 
 Fondé sur méthode agile
 
-**Trois axes principaux** 
+### **Trois axes principaux**
 
 - Transparence 
 
@@ -38,11 +40,11 @@ Fondé sur méthode agile
 
 - Adaptation
 
-**Objectif** 
+### **Objectif**
 
 Livrer rapidement un produit même partiel répondant aux attentes (ou partie), et l'améliorer.
 
-**Avantage/Inconvénients**
+### **Avantage/Inconvénients**
 
 | Avantages                                               | Inconvénients                    |
 | ------------------------------------------------------- | -------------------------------- |
@@ -53,7 +55,7 @@ Livrer rapidement un produit même partiel répondant aux attentes (ou partie), 
 | Meilleur rendement via répartition de la responsabilité |                                  |
 | Facilitation de la communication dans le groupe projet  |                                  |
 
-**Acteurs**
+### **Acteurs**
 
 - Product Owner : représente le client, gestion du "backlog de produit"
 
@@ -61,7 +63,7 @@ Livrer rapidement un produit même partiel répondant aux attentes (ou partie), 
 
 - Équipe : pas de rôle prédéfini car en autogestion, pas de hierarchie interne, en charge de la production de l'incrément
 
-**Planification**
+### **Planification**
 
 - Backlog produit : liste des fonctionnalités attendues d'un produit. Évolue dans le temps // Product Owner
 
