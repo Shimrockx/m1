@@ -202,4 +202,19 @@ Pour chaque année (colonne), on inscrit :
 
 ## Plan de financement
 
-On note dans 4 colonnes :  Début année N, Fin année N, puis N+... jusqu'à fin de période étudiée
+On note dans 4 colonnes :  Début année N, Fin année N, puis N+... jusqu'à fin de période étudiée  
+La variation de BFR se calcule simplement en soustrayant le BFR(N+1) au BFR(N).
+
+- Apports (uniquement pour année concernée)
+- Emprunts (uniquement pour année concernée)
+- Variation BFR si négative
+- Total 1 (tout ce qui précède)
+- Acquisitions (ce qui a été acquis via l'emprunt)
+- Remboursements (Amortissement du tableau d'emprunt)
+- Dividendes
+- Variation BFR si positive
+- Total 2 (uniquement élément post-total 1)
+- Solde (Total 1 - Total 2)
+- Trésorerie initiale (Trésorerie finale de la colonne suivante)
+- Trésorerie finale (Solde + Trésorerie initiale)
+
