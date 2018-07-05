@@ -174,8 +174,6 @@ Principe :
 
 - le produit doit être validé et approuvé
 
-
-
 ### Gestion des configurations
 
 Voir ITIL, l'idée est de suivre l'évolution du projet du début à la fin
@@ -187,8 +185,6 @@ Principes :
 - Établir un référentiel
 
 N'est plus traité dnas la nouvelle version de PRINCE2 car dans ITIL
-
-
 
 ### Gestion de changement
 
@@ -208,8 +204,6 @@ Types d'incidences :
 
 - Question, problèmes. En cas de problèmes on peut utiliser le budget de contingence.
 
-
-
 Gestion des problèmes
 
 - Détecter et enregistrer
@@ -224,11 +218,7 @@ Gestion des problèmes
 
 - Vérifier le recueil d'incidence (issue log)
 
-
-
 La prise de décision se fait par le chef de projet et le comité de pilotage
-
-
 
 ## Fonctionnement d'un projet
 
@@ -260,8 +250,6 @@ La prise de décision se fait par le chef de projet et le comité de pilotage
 
 6. Assembler le document d'initialisation
 
-
-
 ### Diriger un projet - DP
 
 1. Autoriser l'initialisation du projet
@@ -273,8 +261,6 @@ La prise de décision se fait par le chef de projet et le comité de pilotage
 4. Donner des directives ponctuelles
 
 5. Confirmer la clôture de projet
-
-
 
 ### Contrôle de séquence - CS
 
@@ -296,8 +282,6 @@ La prise de décision se fait par le chef de projet et le comité de pilotage
 
 9. Réceptionner un lot de travaux
 
-
-
 ### Gérer les livraisons du produit - LP
 
 1. Accepter un lot de travaux
@@ -305,8 +289,6 @@ La prise de décision se fait par le chef de projet et le comité de pilotage
 2. Exécuter un lot de travaux (revue qualité)
 
 3. Livrer un lot de travaux (contrôle qualité)
-
-
 
 ### Gestion des limites de séquences - LS
 
@@ -322,8 +304,6 @@ La prise de décision se fait par le chef de projet et le comité de pilotage
 
 6. Produire un plan d'exception
 
-
-
 ### Clôture de projet - CP
 
 1. Préparer la fin de projet
@@ -331,8 +311,6 @@ La prise de décision se fait par le chef de projet et le comité de pilotage
 2. Identifier les actions de suivi
 
 3. Évaluer le plan post projet
-
-
 
 ### Planifier
 
@@ -349,5 +327,3 @@ La prise de décision se fait par le chef de projet et le comité de pilotage
 6. Analyser les risques
 
 7. Finaliser le plan
-
-
