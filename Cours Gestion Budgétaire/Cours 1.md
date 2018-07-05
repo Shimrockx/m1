@@ -1,9 +1,7 @@
 Cours 1
-========================
+===
 
-## Intro 
-
- 
+## Intro
 
 Qu'est-ce qu'une entreprise ? 
 
@@ -13,10 +11,8 @@ Qu'est-ce qu'une entreprise ?
 * A une finalité, des objectifs 
 * But lucratif 
 * Ensemble de ressources : humaines, financières, matérielles... 
-* Chiffre d'affaires, capital, charges, bénéfices... 
-
- Une asso  est différente d'une entreprise ?  
-==> On est parti en couille 
+* Chiffre d'affaires, capital, charges, bénéfices... Une asso  est différente d'une entreprise ?  
+  ==> On est parti en couille 
 
 Finalité  
 Objectif  
@@ -27,9 +23,8 @@ But
 Une entreprise a, en amont : 
 
 En aval : 
-* Des clients 
 
- 
+* Des clients 
 
 _________--------*** Allez on note*** ----------__________ 
 
@@ -49,9 +44,9 @@ La comptabilité générale est un système d'enregistrement et d'information de
 * Bilan – Document représentant les biens de l'entreprise 
 * Compte de résultats (Compte de gestion) – Document regroupant les charges et ls produits d'un exercice afin de déterminer le résultat (bénéfices ou pertes) de l'entreprise. La tenu de la comptabilité est obligatoire car elle a pour objectif de renseigner les tiers sur la santé de l'entreprise. Cependant, l'analyse et le suivi de l'activité est indispensable pour mesurer la performance. 
 
-## 1 – Analyse du risque 
+## 1 – Analyse du risque
 
-### 1.1 - Tableau différentiel 
+### 1.1 - Tableau différentiel
 
 L'objectif est de comparer le chiffre d'affaires (CA) aux différentes charges supportées par l'entreprise. On distingue : 
 
@@ -62,19 +57,16 @@ Tableau différentiel
 
 ![tab1](https://github.com/eii1719/m1/blob/master/Cours%20Gestion%20Budg%C3%A9taire/Cours%201/tab1.png)
 
-
 MSCV = Marge Sur Coûts Variables  
 REX = Résultat généré par l'EXploitation de l'entreprise 
 
 La marge est un résultat intermédiaire. 
 
-### 1.2 - Les indicateurs pour la prise en compte du risque 
- 
-### 1.2.1 - Seuil de rentabilité 
+### 1.2 - Les indicateurs pour la prise en compte du risque
+
+### 1.2.1 - Seuil de rentabilité
 
 Appelé aussi "Chiffre d'affaires critique", c'est le CA pour lequel l'entreprise ne réalise ni bénéfice ni perte. Il peut être calculé en valeur et/ou en quantité. 
-
- 
 
 SR(€) = CA*CF/MSCV   
 = CF/TxMSCV 
@@ -82,19 +74,19 @@ SR(€) = CA*CF/MSCV
 SR(Q) = SR(€)/PV unitaire  
 = CF/MSCV unitaire 
 
-### 1.2.2 - Le point mort 
+### 1.2.2 - Le point mort
 
 Date à laquelle le SR est atteint. Attention : en jours d'activité ! 
 
  PM = SR/CA*360 
 
-### 1.2.3 - Indice de sécurité 
+### 1.2.3 - Indice de sécurité
 
 Mesure le pourcentage d'erreur permis dans les prévisions 
 
 IS = CA-SR/CA*100 
 
-### 1.2.4 - Levier opérationnel 
+### 1.2.4 - Levier opérationnel
 
  Ou "élasticité", mesure la sensibilité du résultat suite à une variation du chiffre d'affaires 
 
@@ -102,7 +94,7 @@ IS = CA-SR/CA*100
 
  Δ = variation 
 
-### 1.2.5 - Exemple 
+### 1.2.5 - Exemple
 
  ![tab2](https://github.com/eii1719/m1/blob/master/Cours%20Gestion%20Budg%C3%A9taire/Cours%201/tab2.png)
 
