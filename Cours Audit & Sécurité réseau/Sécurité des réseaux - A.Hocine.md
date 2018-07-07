@@ -136,3 +136,42 @@ SNAT précise l'adresse IP source qu'on a côté Internet
  La config réseau du TP est pas claire - abandon du TP après deux heures à essayer de comprendre comment configurer le réseau des VM.
 
 Il est conseillé de se faire un bloc-note avec les commandes. Pour l'exam ?
+
+Statégie par défaut : ACCEPT
+
+### Options
+
+- -t pour préciser une table
+- -N Créer une chaîne
+- -F vide une chaine ou toute la table si pas de chaine spécifiée. On peut préciser INPUT ou OUTPUT pour filtrer les chaines à vider. La chaine continuera d'exister mais sera vide
+- -X Supprime une chaine. Elle doit être vide (donc -F avant pour virer les règles)
+- -L liste les règles d'une chaine ou toutes si aucune chaine spécifiée
+- -A ajoute une règle; -D la supprime. On précise la chaine (PREROUTING, OUTPUT, INPUT, POSTROUTING...) au début de l'ajout/suppression de la règle. si on précise un numéro avec D on indique la ligne
+
+**Paramètres pour ajout de règles**
+
+- -p protocole (tcp, udp, icmp, esp...)
+
+- -j jump : l'action a effectuer si le paquet correpond à la règle (par exemple une autre chaine)
+
+  - SNAT : Nat source
+  - DNAT : Nat destination
+  - LOG : journalise tous les paquets (dans  `/var/log/messages` par défaut)
+  - MASQUERADE : Camouflage (cas particulier de nat source)
+
+- -o interface de sortie
+
+- -m spécifie une correspondance à détecter sur le paquet (lié à une extension conntrack ?). peut utiliser les inversions si suivi de `!`
+
+  - `state` pour checker un état ( `--state NEW`, ou ESTABLISHED, RELATED, INVALID)
+  - `limit `pour spécifier des limites de temps et de connexions : `--limit 2/minute`, `--limit-burst 5`)
+  - `multiport` pour spécifier plusiuers ports (jusqu'à 15) : `--source-port 22,53,80`
+  - `mac` pour filtrer à partir adresse MAC (niveau 2). Cette correspondance ne s'applique qu'aux interfaces ethernet et n'est valide que dans les chaines PREROUTING, FORWARD et INPUT : `--mac-source 00:00:00:01`
+
+- `--icmp-type` précise si le paquet est entrant ou sortant dans le cadre du protocole icmp
+
+- `--log-level info` avec log indique le niveau de journalisation (de 0 à 8)
+
+- `--log-prefix` puis un texte pour préfixer nos journaux.
+
+  
