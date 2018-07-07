@@ -356,7 +356,7 @@ Un soutien satisfaisant fait baisser le niveau de stress
 
 *Hackam & Oldham, 1976*
 
-> Interactions entre caractéristiques d'un emploi et différences indivuduelles influant sur la motivation :
+> Interactions entre caractéristiques d'un emploi et différences individuelles influant sur la motivation :
 > 
 > - Variété des compétences
 > 
@@ -386,7 +386,7 @@ Un soutien satisfaisant fait baisser le niveau de stress
 
 #### Résilience
 
-> Capacité à faire face à l'adversité, à rebondir après des échecs ou des expriences négatives ou difficiles, et à reprendre une trajectoire positive.
+> Capacité à faire face à l'adversité, à rebondir après des échecs ou des expériences négatives ou difficiles, et à reprendre une trajectoire positive.
 > 
 > 4 sources de résilience dans l'organisation :
 > 
@@ -426,7 +426,7 @@ Un soutien satisfaisant fait baisser le niveau de stress
 > 
 > - Engagement élevé
 > 
-> - Des compétencs élevées
+> - Des compétences élevées
 > 
 > - Un partage élevé
 
