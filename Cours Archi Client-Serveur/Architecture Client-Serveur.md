@@ -145,7 +145,7 @@ Ressource utiles : https://openclassrooms.com/courses/creez-votre-application-we
 JEE est un serveur d'application (Apache TomCat) non pas un simple chef d'orchestre  
 On va se concentrer sur la partie EJB.
 
-JEE est une architecture, pas un langage. C'est du design pattern, une manière de développer et de penser les choses (le langage rest du java)
+JEE est une architecture, pas un langage. C'est du design pattern, une manière de développer et de penser les choses (le langage reste du java)
 
 ## EJB
 
