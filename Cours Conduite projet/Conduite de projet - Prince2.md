@@ -63,7 +63,7 @@ Enfin, la revue Post-projet évalue le bénéfice prévu
 
 Plusieurs niveaux :
 
-- Direction de l'entreprise/du proramme
+- Direction de l'entreprise/du programme
 
 - Équipe de management projet
 
@@ -184,7 +184,7 @@ Principes :
 
 - Établir un référentiel
 
-N'est plus traité dnas la nouvelle version de PRINCE2 car dans ITIL
+N'est plus traité dans la nouvelle version de PRINCE2 car dans ITIL
 
 ### Gestion de changement
 
@@ -204,7 +204,7 @@ Types d'incidences :
 
 - Question, problèmes. En cas de problèmes on peut utiliser le budget de contingence.
 
-Gestion des problèmes
+Gestion des problèmes :
 
 - Détecter et enregistrer
 
@@ -234,7 +234,7 @@ La prise de décision se fait par le chef de projet et le comité de pilotage
 
 5. Définition d'un approche
 
-6. Planificationde l'initialisation
+6. Planification de l'initialisation
 
 ### Initialiser un projet - IP
 
