@@ -75,7 +75,7 @@ Donner des objectifs à ses troupes et fournir les moyens associés pour mettre 
 
 
 
-## Man,agement de projet
+## Management de projet
 
 Unification de la gestion et de la direction de projet
 
@@ -83,7 +83,7 @@ Unification de la gestion et de la direction de projet
 
 ## Maître d'usage
 
-Travaille uniquement lors du testing, de la validation, de l'ergonomie. Il est orienté utilisateur, et entre la direction et la gestion. Il apparatient également au management du projet.
+Travaille uniquement lors du testing, de la validation, de l'ergonomie. Il est orienté utilisateur, et entre la direction et la gestion. Il appartient également au management du projet.
 
 
 

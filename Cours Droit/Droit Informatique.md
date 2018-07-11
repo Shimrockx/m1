@@ -201,7 +201,7 @@ Règle générale : si les messages sont à "caractère privé" => pas de sancti
 
 ### Spécificité de l'objet informatique
 
-Deux éléments :
+Deux éléments dans un contrat :
 
 - Son **objet** : Un contrat informatique est soit lié à du matériel informatique, soit à de l'immatériel, des services (vente, entretien....)
 
@@ -327,7 +327,7 @@ Durant toute l'exécution du contrat, il y a un devoir de conseil de la part du 
 
 **Devoir de collaboration** : Le client doit continuer à collaborer avec le fournisseur en se montrant actif tout au long de la mise en oeuvre du système.
 
-Création d'un**comité de suivi** : c'est une véritable structure de concertation et de contrôle entre les partis. Il est utile de prévoir contractuellement le comité de suivi, stipulant quand il se retrouve et de qui il est composé
+Création d'un **comité de suivi** : c'est une véritable structure de concertation et de contrôle entre les partis. Il est utile de prévoir contractuellement le comité de suivi, stipulant quand il se retrouve et de qui il est composé
 
 **Maîtrise d'oeuvre** : dans les projets de grande envergure, on peut croiser le maître d'oeuvre en plus du comité de suivi. Le MOE informatique est celui qui a en charege la conception intellectuelle du projet et sa réalisation globale. Le MOE communique directement avec le MOA, qui est celui pour qui le projet est réalisé. Il a en charge la définition des besoins.
 
@@ -338,7 +338,7 @@ Un contrat se modifie par avenant. On ne crée pas un nouveau contrat, on crée 
 
 Le contrat peut prévoir des "mécanismes d'actualisation". L'indice retenu pour l'actualisation du prix doit avoir un lien direct avec l'objet du contrat.
 
-La chambre syndicale des sociétés d'étude et de conseil qu'on appelle S.YN.T.E.C a les indices les plus retenus : la PSDB et LE PSDC. Et l'INSEE est dans le lot aussi, j'sais pas pourquoi. Ça permet d'évauer le prix moyen des différentes prestations.
+La chambre syndicale des sociétés d'étude et de conseil qu'on appelle S.Y.N.T.E.C a les indices les plus retenus : la PSDB et LE PSDC. Et l'INSEE est dans le lot aussi, j'sais pas pourquoi. Ça permet d'évauer le prix moyen des différentes prestations.
 
 ## 2 - Livraison de la prestation
 
@@ -356,7 +356,7 @@ Le contrôle de la conformité peut être tacite. Après un certain délai, si a
 
 Il existe plusieurs types de garanties.
 
-La première dont on n peut pas se défaire :
+La première dont on on peut pas se défaire :
 
 ### A - La garantie légale des vices cachés
 
@@ -414,7 +414,7 @@ Cas de force majeure : neige, pas responsable, pas de remboursement.
 
 ### C - Clause pénale
 
-L'idée est déviter d'avoir recours au juge. C'est mettre en place un mécanisme de sanctions (pécuniaires) en cas d'inexécutions d'une des obligations contracutelles. Et des sanctions automatiques.  
+L'idée est déviter d'avoir recours au juge. C'est mettre en place un mécanisme de sanctions (pécuniaires) en cas d'inexécutions d'une des obligations contractuelles. Et des sanctions automatiques.  
 Ex : livré en 30 min ou remboursé. 
 
 Ces clauses n'ont pas besoin d'un juge, il suffit de contacter le contractant et de les revendiquer
