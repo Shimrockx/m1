@@ -206,6 +206,7 @@ On note dans 4 colonnes :  Début année N, Fin année N, puis N+... jusqu'à fi
 La variation de BFR se calcule simplement en soustrayant le BFR(N+1) au BFR(N).
 
 - Apports (uniquement pour année concernée)
+- CAF
 - Emprunts (uniquement pour année concernée)
 - Variation BFR si négative
 - Total 1 (tout ce qui précède)
